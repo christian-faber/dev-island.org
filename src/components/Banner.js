@@ -2,7 +2,7 @@ import banner from "../assets/Banner.jpg";
 
 export const Banner = () => {
   return (
-    <div className="flex relative max-h-25 w-full justify-center items-end">
+    <div className="flex relative w-full lg:h-80 justify-center items-end">
       <img src={banner} alt="Banner" className=" max-w-full object-fill" />
       <div className="absolute bg-slate-100 opacity-80 mb-5 p-3 shadow-lg rounded-xl">
         <h1 className="text-2xl">Bootcamp!</h1>

@@ -1,25 +1,30 @@
+import { Link } from "react-router-dom";
+
 export const NavBar = () => {
   const logo = "</>";
   return (
     <div className="bg-slate-300 flex-col items-center flex shadow-sm pt-5">
-      <div className="w-20 h-20 rounded-full flex justify-center items-center border shadow-md transform transition hover:scale-125 hover:bg-slate-400">
+      <Link
+        to="/"
+        className="w-20 h-20 rounded-full flex justify-center items-center border shadow-md transform transition hover:scale-125 hover:bg-slate-400"
+      >
         <p className="">{logo}</p>
-      </div>
+      </Link>
       <ul className="flex items-center p-3 align-center justify-centerf [&>*]:p-3">
         <li className="hover:text-slate-500 transform transition active:scale-125 active:underline">
-          About
+          <Link to="/about">About</Link>
         </li>
         <li className="border-l-2 hover:text-slate-500 transform transition active:scale-125 active:underline">
-          Bootcamp
+          <Link to="/bootcamp">Bootcamp</Link>
         </li>
         <li className="border-l-2 hover:text-slate-500 transform transition active:scale-125 active:underline">
-          Projects
+          <Link to="/project">Projects</Link>
         </li>
         <li className="border-l-2 hover:text-slate-500 transform transition active:scale-125 active:underline">
-          Get Involved
+          <Link to="/getinvolved">Get Involved</Link>
         </li>
         <li className="border-l-2 hover:text-slate-500 transform transition active:scale-125 active:underline">
-          FAQ
+          <Link to="/faq">FAQ</Link>
         </li>
       </ul>
     </div>

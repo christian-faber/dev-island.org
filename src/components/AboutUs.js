@@ -1,10 +1,14 @@
 import { Cohort } from "./Cohort";
+import { NavBar } from "./NavBar";
 import { Partners } from "./Partners";
 import { Team } from "./Team";
 
 export const AboutUs = () => {
   return (
-    <>
+    <div>
+      <div>
+        <NavBar />
+      </div>
       <div>
         <div className="flex flex-row p-20">
           <div>
@@ -24,6 +28,6 @@ export const AboutUs = () => {
       <Cohort />
       <Team />
       <Partners />
-    </>
+    </div>
   );
 };

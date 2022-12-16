@@ -3,8 +3,8 @@ import { Footer } from "./components/Footer";
 import { HomeBootcamp } from "./components/HomeBootcamp";
 import { NavBar } from "./components/NavBar";
 import { Ribbons } from "./components/Ribbons";
-import { Donate } from "./components/Donate";
-import { AboutUs } from "./components/AboutUs";
+// import { Donate } from "./components/Donate";
+// import { AboutUs } from "./components/AboutUs";
 
 export const Page = () => {
   return (
@@ -20,12 +20,12 @@ export const Page = () => {
       </div>
       <Ribbons />
       <Footer />
-      <div className="border-2 border-black">
+      {/* <div className="border-2 border-black">
         <Donate />
       </div>
       <div className="border-2 border-black">
         <AboutUs />
-      </div>
+      </div> */}
     </>
   );
 };
