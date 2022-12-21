@@ -1,6 +1,9 @@
+import { NavBar } from "./NavBar";
+
 export const Donate = () => {
   return (
     <div>
+      <NavBar />
       <div className="bg-purple-400 h-50 flex justify-center items-center align-center">
         <button className="bg-black text-white rounded-2xl p-5 m-5">
           Donate with Paypal

@@ -1,6 +1,7 @@
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import { HomeBootcamp } from "./components/HomeBootcamp";
+import { MobileNavBar } from "./components/MobileNavBar";
 import { NavBar } from "./components/NavBar";
 import { Ribbons } from "./components/Ribbons";
 // import { Donate } from "./components/Donate";

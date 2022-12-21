@@ -1,4 +1,5 @@
 import YoutubeEmbed from "./YoutubeEmbed";
+import { Link } from "react-router-dom";
 
 export const HomeBootcamp = () => {
   return (
@@ -22,9 +23,11 @@ export const HomeBootcamp = () => {
         <button className="border bg-purple-500 rounded-lg p-5 w-[200px] shadow-md">
           Apply
         </button>
-        <button className="border bg-purple-500 rounded-lg p-5 w-[200px] shadow-md">
-          Donate
-        </button>
+        <Link to="/donate">
+          <button className="border bg-purple-500 rounded-lg p-5 w-[200px] shadow-md">
+            Donate
+          </button>
+        </Link>
       </div>
     </div>
   );
