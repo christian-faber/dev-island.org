@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const YoutubeEmbed = ({ embedId }) => (
-  <div className="inset-0 absolute h-full w-full">
+  <div className="inset-0 h-full w-full flex justify-center">
     <iframe
       src={`https://www.youtube.com/embed/${embedId}`}
       frameBorder="0"

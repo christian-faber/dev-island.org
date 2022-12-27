@@ -3,11 +3,23 @@ import banner from "../assets/Banner.jpg";
 
 export const Banner = () => {
   return (
-    <div className="flex relative w-full lg:h-80 justify-center items-end">
-      <img src={banner} alt="Banner" className=" max-w-full object-fill" />
-      <div className="absolute bg-slate-100 opacity-80 mb-5 p-3 shadow-lg rounded-xl">
-        <h1 className="text-2xl">Bootcamp!</h1>
-        <p className="text-xl">This is where summary text is supposed to be</p>
+    <div
+      className="flex 
+    relative h-58 lg:h-80 
+      overflow-hidden bg-blue-500"
+    >
+      <div className="h-full">
+        <img
+          src={banner}
+          alt="Banner"
+          className="object-cover min-w-full"
+        ></img>
+      </div>
+      <div className="absolute bg-slate-100 opacity-80 mb-2 p-2 shadow-lg bottom-0 rounded-xl">
+        <h1 className="text-lg">Bootcamp!</h1>
+        <p className="text-base">
+          This is where summary text is supposed to be
+        </p>
         <Link to="/get" className="flex justify-end">
           Learn More
         </Link>
