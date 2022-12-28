@@ -2,14 +2,15 @@ import { useState } from "react";
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import { HomeBootcamp } from "./components/HomeBootcamp";
-import { Modal } from "./components/Modals/Modal";
+import { AboutModal } from "./components/Modals/AboutModal";
 import { NavBar } from "./components/NavBar";
-import { Ribbons } from "./components/Ribbons";
+import { Tabs } from "./components/Tabs";
 // import { Donate } from "./components/Donate";
 // import { AboutUs } from "./components/AboutUs";
 
 export const Page = () => {
-  const [isOpen, setOpen] = useState(false);
+  // const [isOpen, setOpen] = useState(false);
+  // console.log(isOpen);
 
   return (
     <>
@@ -22,8 +23,8 @@ export const Page = () => {
       <div className="w-full">
         <HomeBootcamp />
       </div>
-      <Ribbons setOpen={setOpen} />
-      {isOpen && <Modal isOpen={isOpen} setOpen={setOpen} />}
+      <Tabs />
+
       <Footer />
       {/* <div className="border-2 border-black">
         <Donate />
