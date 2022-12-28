@@ -1,13 +1,13 @@
-import { NavBar } from "./NavBar";
+import { NavBar } from "../NavBar";
 
-export const Faq = () => {
+export const Bootcamp = () => {
   return (
     <div>
       <div>
         <NavBar />
       </div>
       <div>
-        <h1>coming soon</h1>
+        <h1>Coming soon</h1>
       </div>
     </div>
   );

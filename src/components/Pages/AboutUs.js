@@ -1,7 +1,7 @@
-import { Cohort } from "./Cohort";
-import { NavBar } from "./NavBar";
-import { Partners } from "./Partners";
-import { Team } from "./Team";
+import { Cohort } from "../Cohort";
+import { NavBar } from "../NavBar";
+import { Partners } from "../Partners";
+import { Team } from "../Team";
 
 export const AboutUs = () => {
   return (

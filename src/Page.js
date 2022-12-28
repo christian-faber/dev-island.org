@@ -23,8 +23,9 @@ export const Page = () => {
       <div className="w-full">
         <HomeBootcamp />
       </div>
-      <Tabs />
-
+      <div>
+        <Tabs />
+      </div>
       <Footer />
       {/* <div className="border-2 border-black">
         <Donate />

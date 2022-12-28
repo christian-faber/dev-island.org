@@ -1,19 +1,18 @@
 import { Page } from "./Page";
 import { Routes, Route } from "react-router-dom";
-import { AboutUs } from "./components/AboutUs";
-import { Donate } from "./components/Donate";
-import { Project } from "./components/Project";
-import { Faq } from "./components/Faq";
-import { Bootcamp } from "./components/Bootcamp";
-import { GetInvolved } from "./components/GetInvolved";
-import { Apply } from "./components/Apply";
+import { AboutUs } from "./components/Pages/AboutUs";
+import { Donate } from "./components/Pages/Donate";
+import { Project } from "./components/Pages/Project";
+import { Faq } from "./components/Pages/Faq";
+import { Bootcamp } from "./components/Pages/Bootcamp";
+import { GetInvolved } from "./components/Pages/GetInvolved";
+import { Apply } from "./components/Pages/Apply";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Page />} />
-        <Route path="/home" element={<Page />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/project" element={<Project />} />
