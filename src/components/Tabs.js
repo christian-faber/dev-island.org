@@ -8,16 +8,7 @@ export const Tabs = () => {
   };
 
   return (
-    <div className="flex flex-col relative w-[500px] h-[300px]">
-      {/* display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 500px;
-  height: 300px;
-  background: #f1f1f1;
-  margin: 100px auto 0;
-  word-break: break-all;
-  border: 1px solid rgba(0, 0, 0, 0.274); */}
+    <div className="flex flex-col relative w-[500px] h-[300px] bg-blue-300 border border-black">
       <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
