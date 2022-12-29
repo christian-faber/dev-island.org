@@ -2,7 +2,8 @@ import { useState } from "react";
 import { MobileDropdown } from "./MobileDropdown";
 
 export const MobileNavBar = () => {
-  const logo = "</>";
+  const logoOpen = "</>";
+  const logoClosed = "<>";
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -13,7 +14,8 @@ export const MobileNavBar = () => {
         items-center border shadow-md transform transition hover:scale-125
          hover:bg-slate-400 lg:hidden"
       >
-        <p className="">{logo}</p>
+        {isOpen === false && <p className="">{logoClosed}</p>}
+        {isOpen === true && <p>{logoOpen}</p>}
       </div>
       {isOpen && (
         <div className="flex-row flex shadow-sm z-50">

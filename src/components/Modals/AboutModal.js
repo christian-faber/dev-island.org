@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-export const AboutModal = ({ setOpen }) => {
+export const AboutModal = ({ setOpen, character }) => {
   return (
     <>
       {/* overlay */}

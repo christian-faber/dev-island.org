@@ -5,8 +5,8 @@ import dani from "../assets/DevIslandSchool_20.jpg";
 export const Team = () => {
   return (
     <div>
-      <h2 className="flex justify-center text-xl">Team</h2>
-      <div className="flex flex-wrap">
+      <h2 className="flex justify-start text-xl pl-4">Team</h2>
+      <div className="flex flex-wrap justify-center space-x-4 my-4">
         <div className="border flex flex-col items-center">
           <img
             src={rich}

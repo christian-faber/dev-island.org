@@ -3,12 +3,17 @@ import kama from "../assets/DevIslandSchool_08.jpg";
 import travis from "../assets/DevIslandSchool_20.jpg";
 import christian from "../assets/DevIslandSchool_17.jpg";
 
-export const Cohort = () => {
+export const Cohort = ({ modalOpen, setOpen, character, setCharacter }) => {
+  console.log(modalOpen);
+  console.log(character);
   return (
     <div>
-      <h2 className="flex justify-center text-xl">Cohort</h2>
-      <div className="flex flex-wrap">
-        <div className="border flex flex-col items-center">
+      <h2 className="flex justify-start text-xl pl-4">Cohort</h2>
+      <div className="flex flex-wrap justify-center space-x-4 my-4">
+        <div
+          onClick={() => (setOpen(true), setCharacter("sharece"))}
+          className="border flex flex-col items-center"
+        >
           <img
             src={sharece}
             alt="sharece"
@@ -16,7 +21,10 @@ export const Cohort = () => {
           ></img>
           <h1>Sharece</h1>
         </div>
-        <div className="border flex flex-col items-center">
+        <div
+          onClick={() => (setOpen(true), setCharacter("kama"))}
+          className="border flex flex-col items-center"
+        >
           <img
             src={kama}
             alt="kama"
@@ -24,7 +32,10 @@ export const Cohort = () => {
           ></img>
           <h1>Kamalani</h1>
         </div>
-        <div className="border flex flex-col  items-center">
+        <div
+          onClick={() => (setOpen(true), setCharacter("travis"))}
+          className="border flex flex-col  items-center"
+        >
           <img
             src={travis}
             alt="student"
@@ -32,7 +43,10 @@ export const Cohort = () => {
           ></img>
           <h1>Travis</h1>
         </div>
-        <div className="border flex flex-col  items-center">
+        <div
+          onClick={() => (setOpen(true), setCharacter("christian"))}
+          className="border flex flex-col  items-center"
+        >
           <img
             src={christian}
             alt="student"
