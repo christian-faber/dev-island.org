@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import React from "react";
+import placeholder from "../../assets/DevIslandSchool_17.jpg";
 
 export const AboutModal = ({ setOpen, character }) => {
   return (
@@ -13,7 +12,17 @@ export const AboutModal = ({ setOpen, character }) => {
         {/* modal */}
         <div className="relative z-50 m-auto max-w-xl w-full max-h-full">
           {/* body */}
-          <div className="bg-white p-5 rounded-lg flex justify-center ">
+          <div className="bg-white p-5 rounded-lg flex justify-center space-x-10 ">
+            <div className="border w-1/3">
+              <h1 className="uppercase text-3xl ">{character}</h1>
+              <div className="w-full">
+                <img
+                  src={placeholder}
+                  alt="face"
+                  className="rounded-full  h-full object-cover"
+                ></img>
+              </div>
+            </div>
             <button
               type="button"
               onClick={() => setOpen(false)}
@@ -21,36 +30,24 @@ export const AboutModal = ({ setOpen, character }) => {
             >
               X
             </button>
+
             <div className="flex flex-col w-1/2">
-              <h1 className="border">Who are we</h1>
               <div className="flex flex-col">
                 {/* section 1 */}
                 <div className="border">
-                  <h1>Background</h1>
-                  <Link>
-                    <button>Dive in!</button>
-                  </Link>
+                  <h1 className="text-lg">Background</h1>
+                  <p className="text-md">
+                    This will likely be filled by data from a json file
+                  </p>
                 </div>
                 {/* section 2 */}
                 <div className="border">
-                  <h1>Team</h1>
-                  <Link>
-                    <button>Dive in!</button>
-                  </Link>
-                </div>
-                {/* section 3 */}
-                <div className="border">
-                  <h1>Cohort</h1>
-                  <Link>
-                    <button>Dive in!</button>
-                  </Link>
-                </div>
-                {/* section 4 */}
-                <div className="border">
-                  <h1>Partners</h1>
-                  <Link>
-                    <button>Dive in!</button>
-                  </Link>
+                  <h1>Links</h1>
+                  <div className="space-x-3">
+                    <a href="https://github.com">Git</a>
+                    <a href="https://linkedin.com">Lnkdn</a>
+                    <a href="https://communitypursuit.com">compu</a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,9 +1,12 @@
-export const Partners = () => {
+export const Partners = ({ setOpen, setCharacter }) => {
   return (
     <div>
       <h2 className="flex justify-start text-xl pl-4">Partners</h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
-        <div className="border flex flex-col items-center">
+        <div
+          onClick={() => (setOpen(true), setCharacter("partner 1"))}
+          className="border flex flex-col items-center"
+        >
           <img
             src="/"
             alt="partner 1"
@@ -11,7 +14,10 @@ export const Partners = () => {
           ></img>
           <h1>Partner</h1>
         </div>
-        <div className="border flex flex-col items-center">
+        <div
+          onClick={() => (setOpen(true), setCharacter("partner 2"))}
+          className="border flex flex-col items-center"
+        >
           <img
             src="/"
             alt="partner 2"
@@ -19,7 +25,10 @@ export const Partners = () => {
           ></img>
           <h1>Parnter</h1>
         </div>
-        <div className="border flex flex-col  items-center">
+        <div
+          onClick={() => (setOpen(true), setCharacter("partner 3"))}
+          className="border flex flex-col  items-center"
+        >
           <img
             src="/"
             alt="partner 3"
