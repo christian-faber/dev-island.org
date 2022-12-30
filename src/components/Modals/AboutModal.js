@@ -1,4 +1,4 @@
-import placeholder from "../../assets/DevIslandSchool_17.jpg";
+import placeholder from "../../assets/DevIslandSchool_27.jpg";
 
 export const AboutModal = ({ setOpen, character }) => {
   return (
