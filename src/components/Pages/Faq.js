@@ -7,7 +7,8 @@ export const Faq = () => {
         <NavBar />
       </div>
       <div>
-        <h1>coming soon</h1>
+        <h1>Frequently Asked Questions</h1>
+        <div></div>
       </div>
     </div>
   );
