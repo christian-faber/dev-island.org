@@ -3,7 +3,7 @@ import { NavBar } from "../NavBar";
 import { Partners } from "../Partners";
 import { Team } from "../Team";
 import { useState } from "react";
-import { AboutModal } from "../Modals/AboutModal";
+import { AboutModal } from "../modals/AboutModal";
 
 export const AboutUs = () => {
   const [modalOpen, setOpen] = useState(false);

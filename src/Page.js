@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import { HomeBootcamp } from "./components/HomeBootcamp";
-import { AboutModal } from "./components/Modals/AboutModal";
+import { AboutModal } from "./components/modals/AboutModal";
 import { NavBar } from "./components/NavBar";
 import { Tabs } from "./components/Tabs";
 // import { Donate } from "./components/Donate";

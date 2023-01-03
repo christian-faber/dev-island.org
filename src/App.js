@@ -1,12 +1,12 @@
 import { Page } from "./Page";
 import { Routes, Route } from "react-router-dom";
-import { AboutUs } from "./components/Pages/AboutUs";
-import { Donate } from "./components/Pages/Donate";
-import { Project } from "./components/Pages/Project";
-import { Faq } from "./components/Pages/Faq";
-import { Bootcamp } from "./components/Pages/Bootcamp";
-import { GetInvolved } from "./components/Pages/GetInvolved";
-import { Apply } from "./components/Pages/Apply";
+import { AboutUs } from "./components/pages/AboutUs";
+import { Donate } from "./components/pages/Donate";
+import { Project } from "./components/pages/Project";
+import { Faq } from "./components/pages/Faq";
+import { Bootcamp } from "./components/pages/Bootcamp";
+import { GetInvolved } from "./components/pages/GetInvolved";
+import { Apply } from "./components/pages/Apply";
 
 function App() {
   return (
