@@ -7,10 +7,14 @@ import { Faq } from "./components/pages/Faq";
 import { Bootcamp } from "./components/pages/Bootcamp";
 import { GetInvolved } from "./components/pages/GetInvolved";
 import { Apply } from "./components/pages/Apply";
+import { NavBar } from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
+      <div className="w-full">
+        <NavBar />
+      </div>
       <Routes>
         <Route path="/" element={<Page />} />
         <Route path="/donate" element={<Donate />} />

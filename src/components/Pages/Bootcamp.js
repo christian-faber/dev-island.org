@@ -3,9 +3,6 @@ import { NavBar } from "../NavBar";
 export const Bootcamp = () => {
   return (
     <div>
-      <div>
-        <NavBar />
-      </div>
       <h1>Bootcamp</h1>
       <div>
         <h1>Key Points</h1>

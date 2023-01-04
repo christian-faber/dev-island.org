@@ -206,7 +206,6 @@ const FAQS = [
 export const Faq = () => {
   return (
     <>
-      <NavBar />
       <section>
         <div className="border">
           <h1>Frequently Asked Questions</h1>

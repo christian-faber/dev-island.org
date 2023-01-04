@@ -4,9 +4,6 @@ export const GetInvolved = () => {
   return (
     <div>
       <div>
-        <NavBar />
-      </div>
-      <div>
         <h1>Get Involved</h1>
         <p>
           There are many ways that members of our community connect and
@@ -32,8 +29,8 @@ export const GetInvolved = () => {
             We host online channels to bring people together over technology as
             an industry or a hobby!
           </p>
-          <a>Our Meetup Link</a>
-          <a>Our Discord Link</a>
+          <a href="/">Our Meetup Link</a>
+          <a href="/">Our Discord Link</a>
         </div>
         <div>
           <h2>Donating</h2>

@@ -13,9 +13,6 @@ export const AboutUs = () => {
     <div>
       {modalOpen && <AboutModal character={character} setOpen={setOpen} />}
       <div>
-        <NavBar />
-      </div>
-      <div>
         <div className="flex flex-row p-20">
           <div>
             <h2>Background</h2>
