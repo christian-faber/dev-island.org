@@ -1,5 +1,4 @@
 import { Cohort } from "../Cohort";
-import { NavBar } from "../NavBar";
 import { Partners } from "../Partners";
 import { Team } from "../Team";
 import { useState } from "react";

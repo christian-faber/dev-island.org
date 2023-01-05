@@ -1,5 +1,3 @@
-import { NavBar } from "../NavBar";
-
 export const Project = () => {
   return (
     <div>

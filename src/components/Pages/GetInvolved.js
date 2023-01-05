@@ -1,10 +1,8 @@
-import { NavBar } from "../NavBar";
-
 export const GetInvolved = () => {
   return (
     <div>
       <div>
-        <h1>Get Involved</h1>
+        <h1 className="">Get Involved</h1>
         <p>
           There are many ways that members of our community connect and
           collaborate.
