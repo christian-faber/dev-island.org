@@ -1,13 +1,14 @@
 import { Page } from "./Page";
 import { Routes, Route } from "react-router-dom";
-import { AboutUs } from "./components/pages/AboutUs";
-import { Donate } from "./components/pages/Donate";
-import { Project } from "./components/pages/Project";
-import { Faq } from "./components/pages/Faq";
-import { Bootcamp } from "./components/pages/Bootcamp";
-import { GetInvolved } from "./components/pages/GetInvolved";
-import { Apply } from "./components/pages/Apply";
+import { AboutUs } from "./pages/AboutUs";
+import { Donate } from "./pages/Donate";
+import { Project } from "./pages/Project";
+import { Faq } from "./pages/Faq";
+import { Bootcamp } from "./pages/Bootcamp";
+import { GetInvolved } from "./pages/GetInvolved";
+import { Apply } from "./pages/Apply";
 import { NavBar } from "./components/NavBar";
+import { SocialMedia } from "./components/SocialMedia";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <div className="w-full">
         <NavBar />
       </div>
-      <Routes>
+      <SocialMedia />
+      {/* <Routes>
         <Route path="/" element={<Page />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/about" element={<AboutUs />} />
@@ -24,7 +26,7 @@ function App() {
         <Route path="/bootcamp" element={<Bootcamp />} />
         <Route path="/getinvolved" element={<GetInvolved />} />
         <Route path="/apply" element={<Apply />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

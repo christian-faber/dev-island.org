@@ -7,20 +7,20 @@ export const MobileDropdown = () => {
         <li className="hover:text-slate-500 transform transition active:scale-125 active:underline">
           <Link to="/">Home</Link>
         </li>
-        <li className="hover:text-slate-500 transform transition active:scale-125 active:underline">
-          <Link to="/about">About</Link>
-        </li>
         <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline">
-          <Link to="/bootcamp">Bootcamp</Link>
+          <Link to="/students">Students</Link>
         </li>
         <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline">
           <Link to="/project">Projects</Link>
         </li>
         <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline">
-          <Link to="/getinvolved">Get Involved</Link>
+          <Link to="/faq">FAQ</Link>
+        </li>
+        <li className="hover:text-slate-500 transform transition active:scale-125 active:underline">
+          <Link to="/about">About</Link>
         </li>
         <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline">
-          <Link to="/faq">FAQ</Link>
+          <Link to="/getinvolved">Get Involved</Link>
         </li>
       </ul>
     </div>
