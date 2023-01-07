@@ -12,7 +12,7 @@ export const Banner = () => {
         <img
           src={banner}
           alt="Banner"
-          className="object-cover min-w-full"
+          className="object-contain min-w-full"
         ></img>
       </div>
       <div className="absolute bg-slate-100 opacity-80 mb-2 p-2 shadow-lg bottom-0 rounded-xl">

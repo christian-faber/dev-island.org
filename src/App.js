@@ -4,11 +4,11 @@ import { AboutUs } from "./pages/AboutUs";
 import { Donate } from "./pages/Donate";
 import { Project } from "./pages/Project";
 import { Faq } from "./pages/Faq";
-import { Bootcamp } from "./pages/Bootcamp";
 import { GetInvolved } from "./pages/GetInvolved";
 import { Apply } from "./pages/Apply";
 import { NavBar } from "./components/NavBar";
 import { SocialMedia } from "./components/SocialMedia";
+import { Students } from "./pages/Students";
 
 function App() {
   return (
@@ -17,16 +17,16 @@ function App() {
         <NavBar />
       </div>
       <SocialMedia />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Page />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/project" element={<Project />} />
         <Route path="/faq" element={<Faq />} />
-        <Route path="/bootcamp" element={<Bootcamp />} />
+        <Route path="/students" element={<Students />} />
         <Route path="/getinvolved" element={<GetInvolved />} />
         <Route path="/apply" element={<Apply />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }

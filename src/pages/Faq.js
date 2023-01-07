@@ -5,7 +5,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-
+import { HiPlus } from "react-icons/fa";
 const FAQS = [
   {
     question: <>What is Dev-Island's Mission?</>,
@@ -208,7 +208,7 @@ export const Faq = () => {
       <section>
         <div className="border">
           <h1>Frequently Asked Questions</h1>
-          <Accordion>
+          <Accordion allowZeroExpanded>
             {FAQS.map(({ question, answer }) => (
               <div className="border m-5">
                 <AccordionItem>
@@ -216,7 +216,10 @@ export const Faq = () => {
                     <AccordionItemButton>
                       <div>
                         <h1 className="text-2xl">{question}</h1>
-                        <i className="kipso-icon-plus-symbol"></i>
+
+                        <i className="">
+                          <HiPlus />
+                        </i>
                       </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>

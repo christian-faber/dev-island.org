@@ -1,4 +1,4 @@
-export const Bootcamp = () => {
+export const Students = () => {
   return (
     <div className="flex align-middle flex-col justify-center items-center">
       <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
