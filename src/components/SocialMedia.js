@@ -2,7 +2,7 @@ import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 export const SocialMedia = () => {
   return (
-    <div className="fixed w-10 shadow border m-4 right-2 bottom-4">
+    <div className="fixed w-10 shadow border m-4 right-2 bottom-4 z-10">
       <ul>
         <li className="h-10 relative bg-blue-300 text-black">
           <a href="linkedin.com" className="block h-full w-full border-b-2">

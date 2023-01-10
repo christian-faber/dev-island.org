@@ -5,7 +5,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import { HiPlus } from "react-icons/fa";
+import { HiPlus } from "react-icons/hi";
 const FAQS = [
   {
     question: <>What is Dev-Island's Mission?</>,
@@ -214,10 +214,10 @@ export const Faq = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      <div>
+                      <div className="relative flex flex-row align-middle items-center">
                         <h1 className="text-2xl">{question}</h1>
 
-                        <i className="">
+                        <i className="absolute right-2">
                           <HiPlus />
                         </i>
                       </div>
