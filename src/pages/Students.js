@@ -1,8 +1,14 @@
+import { Cohort } from "../components/Cohort";
+import { useState } from "react";
+
 export const Students = () => {
+  const [modalOpen, setOpen] = useState(false);
+  const [character, setCharacter] = useState("");
+
   return (
     <div className="flex align-middle flex-col justify-center items-center">
       <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
-        Bootcamp
+        Become a Student
       </h1>
       <div className="">
         <div className="mt-4 border w-11/12">
@@ -29,6 +35,12 @@ export const Students = () => {
           <h2>Support</h2>
           <p>Help always available. Emotional support</p>
         </div>
+        <Cohort
+          modalOpen={modalOpen}
+          setOpen={setOpen}
+          character={character}
+          setCharacter={setCharacter}
+        />
         <div>
           <button className="border-2 p-4 m-2 shadow bg-purple-300 text-white">
             BECOME A STUDENT!
