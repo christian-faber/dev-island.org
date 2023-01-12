@@ -8,7 +8,9 @@ export const Cohort = ({ modalOpen, setOpen, character, setCharacter }) => {
   console.log(character);
   return (
     <div>
-      <h2 className="flex justify-start text-xl pl-4">Cohort</h2>
+      <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
+        Cohort
+      </h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
         <div
           onClick={() => (setOpen(true), setCharacter("sharece"))}

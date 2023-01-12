@@ -16,12 +16,10 @@ export const Banner = () => {
         ></img>
       </div>
       <div className="absolute bg-slate-100 opacity-80 mb-2 p-2 shadow-lg bottom-0 rounded-xl">
-        <h1 className="text-lg">Bootcamp!</h1>
-        <p className="text-base">
-          This is where summary text is supposed to be
-        </p>
+        <h1 className="text-lg">Kama'āina driven - Kaiāulu focused!</h1>
+        <p className="text-base">Training Local Web Developers</p>
         <Link to="/get" className="flex justify-end">
-          Learn More
+          ->
         </Link>
       </div>
     </div>

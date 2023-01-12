@@ -1,5 +1,6 @@
 import { Cohort } from "../components/Cohort";
 import { useState } from "react";
+import { AboutModal } from "../components/modals/AboutModal";
 
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
@@ -7,6 +8,7 @@ export const Students = () => {
 
   return (
     <div className="flex align-middle flex-col justify-center items-center">
+      {modalOpen && <AboutModal character={character} setOpen={setOpen} />}
       <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
         Become a Student
       </h1>

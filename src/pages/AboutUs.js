@@ -27,12 +27,7 @@ export const AboutUs = () => {
           <img className="border" alt="wut"></img>
         </div>
       </div>
-      <Cohort
-        modalOpen={modalOpen}
-        setOpen={setOpen}
-        character={character}
-        setCharacter={setCharacter}
-      />
+
       <Team
         modalOpen={modalOpen}
         setOpen={setOpen}
