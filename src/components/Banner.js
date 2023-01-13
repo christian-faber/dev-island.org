@@ -17,7 +17,9 @@ export const Banner = () => {
       </div>
       <div className="absolute bg-slate-100 opacity-80 mb-2 p-2 shadow-lg bottom-0 rounded-xl">
         <h1 className="text-lg">Kama'āina driven - Kaiāulu focused!</h1>
-        <p className="text-base">Training Local Web Developers</p>
+        <p className="text-base">
+          Empowering Kauaʻi's own by training local web developers
+        </p>
         <Link to="/get" className="flex justify-end">
           ->
         </Link>

@@ -30,6 +30,10 @@ export const HomeBootcamp = () => {
           <YoutubeEmbed embedId="dQw4w9WgXcQ" />
         </div>
       </div>
+      <div className="flex justify-center">
+        <h2 className="">Next Cohort: </h2>
+        <p>Spring 2023</p>
+      </div>
       <div className="flex p-5 justify-center space-x-10">
         <Link to="/apply" className="w-1/4">
           <button className="border bg-purple-500 min-w-full rounded-lg p-5 shadow-md">
