@@ -20,7 +20,7 @@ export const Banner = () => {
         <p className="text-base">
           Empowering Kauaʻi's own by training local web developers
         </p>
-        <Link to="/get" className="flex justify-end">
+        <Link to="/students" className="flex justify-end">
           ->
         </Link>
       </div>

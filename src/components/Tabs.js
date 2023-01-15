@@ -38,10 +38,12 @@ export const Tabs = () => {
         )}
         {toggleState === 1 && (
           <div className="bg-white p-5 w-full h-full">
-            <h2 className="pb-2">Content 1</h2>
+            <h2 className="pb-2">Connect, Empower, Grow</h2>
             <hr />
             <p className="w-full h-full">
-              Level up your skills! Contribute to and learn from community!
+              Our mission is to connect residents with technology and skills to
+              earn a better living by attending a part-time 9 month in-person
+              software development bootcamp.
             </p>
           </div>
         )}

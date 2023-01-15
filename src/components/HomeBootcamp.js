@@ -11,7 +11,7 @@ export const HomeBootcamp = () => {
           </h2>
           <p className="pl-4 pt-4 pb-6">
             Dev-Island is a Kauaʻi-focused, software development bootcamp,
-            aiming to engage and grow the next generation of software developers
+            engaging and growing the next generation of software developers
             locally.
           </p>
           <p className="pl-4 pt-4 pb-6">
@@ -31,7 +31,7 @@ export const HomeBootcamp = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <h2 className="">Next Cohort: </h2>
+        <h2 className="pr-2">Next Cohort: </h2>
         <p>Spring 2023</p>
       </div>
       <div className="flex p-5 justify-center space-x-10">

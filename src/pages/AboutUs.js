@@ -12,6 +12,10 @@ export const AboutUs = () => {
     <div>
       {modalOpen && <AboutModal character={character} setOpen={setOpen} />}
       <div>
+        <div>
+          <h2>Contact us</h2>
+          <p>808-720-7600</p>
+        </div>
         <div className="flex flex-row p-20">
           <div>
             <h2>Background</h2>

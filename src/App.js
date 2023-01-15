@@ -7,8 +7,8 @@ import { Faq } from "./pages/Faq";
 import { GetInvolved } from "./pages/GetInvolved";
 import { Apply } from "./pages/Apply";
 import { NavBar } from "./components/NavBar";
-import { SocialMedia } from "./components/SocialMedia";
 import { Students } from "./pages/Students";
+import { CallToAction } from "./components/CallToAction";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <div className="w-full">
         <NavBar />
       </div>
-      <SocialMedia />
+      <CallToAction />
       <Routes>
         <Route path="/" element={<Page />} />
         <Route path="/donate" element={<Donate />} />
