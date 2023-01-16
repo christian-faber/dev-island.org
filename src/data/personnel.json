@@ -3,41 +3,41 @@
     {
       "name": "Kamalani",
       "position": "Program Manager",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_25.jpg",
       "statement": ""
     },
     {
       "name": "Travis",
       "position": "",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_20.jpg",
       "statement": ""
     },
     {
       "name": "Sharece",
       "position": "Student Intern",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_01.jpg",
       "statement": ""
     },
     {
       "name": "Christian",
       "position": "",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_18.jpg",
       "statement": ""
     }
   ],
@@ -45,49 +45,49 @@
     {
       "name": "Kamalani",
       "position": "Program Manager",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_25.jpg",
       "statement": ""
     },
 
     {
       "name": "Sharece",
       "position": "Student Intern",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_01.jpg",
       "statement": ""
     },
 
     {
       "name": "Ay Jay",
-      "position": "",
-      "background": "",
+      "position": "Lead Instructor",
+      "background": "AJ Webb is an experienced software development instructor and Principal Software Engineer in the financial services industry. He is skilled in Management, mentoring, JavaScript applications and Agile Methodologies. AJ is a strong engineering professional with a BS focused in Digital Media from Utah Valley University. AJ is a proud Hawaii resident and lives and works from the island of Kaua'i. AJ will serve on the Board of Directors and will lead the technical education of the students.",
       "linkedin": "https://www.linkedin.com/in/aj-webb/",
       "github": "https://github.com/webbushka",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_12.jpg",
       "statement": ""
     },
     {
       "name": "Richyboi",
-      "position": "",
-      "background": "",
+      "position": "President",
+      "background": "Rich Uhl is an experienced technology executive passionate about building—teams, and solutions. Rich is the Founder and CTO of 1Strategy, Amazon Web Services (AWS) experts and implementation partners. Founded in July of 2015, Rich grew the 1Strategy to become an AWS Premier Partner (only 75 partners among 100,000+). In October of 2019, Rich sold 1Strategy to TEKsystems Global Services, a global IT services company. Rich will focus on business development and partnerships.",
       "linkedin": "https://www.linkedin.com/in/richuhl/",
       "github": "",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_04.jpg",
       "statement": ""
     },
     {
       "name": "Steefe",
-      "position": "",
-      "background": "",
+      "position": "Director of Operations",
+      "background": "Danielle Steed received a bachelor’s degree in education. She has experience at the university level as a Graduate Program Manager. In addition to her passion for continued education, she has worked with several technology startups, including 1Strategy, a Premier AWS Consulting company. Over the last 5 years she has grown her knowledge and love for technology. Danielle will focus on business development.",
       "linkedin": "https://www.linkedin.com/in/danielle-steed-utah/",
       "github:": "",
       "otherlink": "",
@@ -97,7 +97,7 @@
     {
       "name": "Jason Bryant",
       "position": "",
-      "background": "",
+      "background": "Jason Bryant is an experienced Systems Engineer with over a decade of IT, Radar, RF Communications and Cybersecurity experience. He is a subject matter export in cybersecurity architecture, government architecture standards and Agile methodologies. He is comfortable in performing requirements analysis, designing system architecture and MBSE. Jason’s education is highly focused on IT and business management.  His BS is in Network Administration and Integrated Computing Systems. Born and raised on the westside of Kauai, Jason is an active member of his local community.  As a local business owner, father, and coach he is committed to investing into the island that raised him. Jason will serve on the Board of Directors.",
       "linkedin": "https://www.linkedin.com/in/jason-bryant-60b33b20a/",
       "github:": "",
       "otherlink": "",
@@ -107,7 +107,7 @@
     {
       "name": "Keoni Pau",
       "position": "",
-      "background": "",
+      "background": "Keoni Pau is an experienced educator currently teaching at Chiefess Kamakahelei Middle School. His classes range from STEM to Hawaiiana classes. Keoni was born and raised on Kauai and prior to his position at Chiefess he taught for several years at Koloa Elementary School. Keoni will serve on the board of directors.",
       "linkedin": "",
       "github:": "",
       "otherlink": "",
@@ -117,7 +117,7 @@
     {
       "name": "David Dooley",
       "position": "",
-      "background": "",
+      "background": "Dave is an education administrator with over twenty years combined experience in university and secondary education environments including: leadership, administration, supervision, program management, curriculum development, mentoring, teaching, and coaching. Dave is proficient in working with, and coaching in, a variety of leadership styles. Dave will serve on the board of directors.",
       "linkedin": "https://www.linkedin.com/in/ddooley/",
       "github:": "",
       "otherlink": "",
@@ -205,7 +205,7 @@
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_25.jpg",
       "statement": ""
     },
     {
@@ -215,7 +215,7 @@
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_20.jpg",
       "statement": ""
     },
     {
@@ -225,7 +225,7 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "",
+      "image": "src/assets/DevIslandSchool_01.jpg",
       "statement": ""
     },
     {
@@ -234,8 +234,8 @@
       "background": "",
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
-      "otherlink": "",
-      "image": "",
+      "otherlink": "https://communitypursuit.com",
+      "image": "src/assets/DevIslandSchool_18.jpg",
       "statement": ""
     }
   ]
