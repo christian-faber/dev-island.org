@@ -1,8 +1,8 @@
-import { Cohort } from "../components/Cohort";
 import { Partners } from "../components/Partners";
 import { Team } from "../components/Team";
 import { useState } from "react";
 import { AboutModal } from "../components/modals/AboutModal";
+import { personnel } from "../data/personnel.json";
 
 export const AboutUs = () => {
   const [modalOpen, setOpen] = useState(false);

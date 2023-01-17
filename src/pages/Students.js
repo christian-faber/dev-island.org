@@ -3,6 +3,7 @@ import { useState } from "react";
 import { AboutModal } from "../components/modals/AboutModal";
 import { Link } from "react-router-dom";
 import { Alumni } from "../components/Alumni";
+import { personnel } from "../data/personnel.json";
 
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
