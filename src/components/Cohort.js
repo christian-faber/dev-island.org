@@ -3,11 +3,18 @@ import kama from "../assets/DevIslandSchool_08.jpg";
 import travis from "../assets/DevIslandSchool_20.jpg";
 import christian from "../assets/DevIslandSchool_17.jpg";
 
-export const Cohort = ({ modalOpen, setOpen, character, setCharacter }) => {
+export const Cohort = ({
+  modalOpen,
+  setOpen,
+  character,
+  setCharacter,
+  students,
+}) => {
   console.log(modalOpen);
   console.log(character);
   return (
     <div>
+      {students.map((name) => )}
       <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
         Cohort
       </h2>

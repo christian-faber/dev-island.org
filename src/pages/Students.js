@@ -60,6 +60,7 @@ export const Students = () => {
         <div>
           <h1>Studnet Stories</h1>
           <Cohort
+            students={personnel.students}
             modalOpen={modalOpen}
             setOpen={setOpen}
             character={character}

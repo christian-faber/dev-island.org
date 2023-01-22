@@ -1,6 +1,6 @@
 import placeholder from "../../assets/DevIslandSchool_27.jpg";
 
-export const AboutModal = ({ setOpen, character }) => {
+export const AboutModal = ({ setOpen, team, partner }) => {
   return (
     <>
       {/* overlay */}
@@ -14,10 +14,10 @@ export const AboutModal = ({ setOpen, character }) => {
           {/* body */}
           <div className="bg-white p-5 rounded-lg flex justify-center space-x-10 ">
             <div className="border w-1/3">
-              <h1 className="uppercase text-3xl ">{character}</h1>
+              <h1 className="uppercase text-3xl ">{team.name}</h1>
               <div className="w-full">
                 <img
-                  src={placeholder}
+                  src={team.image}
                   alt="face"
                   className="rounded-full  h-full object-cover"
                 ></img>
