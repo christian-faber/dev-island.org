@@ -14,22 +14,23 @@ export const Cohort = ({
   console.log(character);
   return (
     <div>
-      {students.map((name) => )}
       <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
         Cohort
       </h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
-        <div
-          onClick={() => (setOpen(true), setCharacter("sharece"))}
-          className="border flex flex-col items-center"
-        >
-          <img
-            src={sharece}
-            alt="sharece"
-            className="border rounded-full h-20 w-20 object-contain"
-          ></img>
-          <h1>Sharece</h1>
-        </div>
+        {students.map((name) => (
+          <div
+            onClick={() => (setOpen(true), setCharacter(`${students.name}`))}
+            className="border flex flex-col items-center"
+          >
+            <img
+              src={students.image}
+              alt="sharece"
+              className="border rounded-full h-20 w-20 object-contain"
+            ></img>
+            <h1>{students.name}</h1>
+          </div>
+        ))}
         <div
           onClick={() => (setOpen(true), setCharacter("kama"))}
           className="border flex flex-col items-center"

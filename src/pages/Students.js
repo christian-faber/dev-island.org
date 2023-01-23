@@ -3,7 +3,7 @@ import { useState } from "react";
 import { AboutModal } from "../components/modals/AboutModal";
 import { Link } from "react-router-dom";
 import { Alumni } from "../components/Alumni";
-import { personnel } from "../data/personnel.json";
+// import { personnel } from "../data/personnel.json";
 
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
@@ -59,13 +59,13 @@ export const Students = () => {
         <hr />
         <div>
           <h1>Studnet Stories</h1>
-          <Cohort
-            students={personnel.students}
+          {/* <Cohort
+            // students={personnel.students}
             modalOpen={modalOpen}
             setOpen={setOpen}
             character={character}
             setCharacter={setCharacter}
-          />
+          /> */}
           <Alumni />
         </div>
         <div>

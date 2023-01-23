@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const MobileDropdown = () => {
   return (
-    <div className="absolute z-50 bg-slate-300 flex">
+    <div className="absolute z-50 bg-seaside flex">
       <ul className="flex flex-col items-center p-3 align-center justify-centerf [&>*]:p-3">
         <li className="hover:text-slate-500 transform transition active:scale-125 active:underline">
           <Link to="/">Home</Link>
