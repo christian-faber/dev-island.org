@@ -8,7 +8,7 @@ export const Alumni = ({ modalOpen, setOpen, character, setCharacter }) => {
   console.log(character);
   return (
     <div>
-      <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
+      <h2 className="flex align-center items-center justify-center text-white text-xl font-sans bg-gradient-to-b bg-misty w-full">
         Alumni
       </h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
@@ -36,7 +36,7 @@ export const Alumni = ({ modalOpen, setOpen, character, setCharacter }) => {
         </div>
         <div
           onClick={() => (setOpen(true), setCharacter("travis"))}
-          className="border flex flex-col  items-center"
+          className="border flex flex-col items-center"
         >
           <img
             src={travis}

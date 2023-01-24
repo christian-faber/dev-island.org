@@ -4,22 +4,22 @@ export const Tabs = () => {
   const [toggleState, setToggleState] = useState(0);
 
   return (
-    <div className="flex flex-row w-full h-[500px] border border-black bg-blue-200">
+    <div className="flex flex-row w-full h-[500px] border border-black bg-seaside">
       <div className="flex flex-col w-1/3 lg:w-1/6 h-1/2">
         <button
-          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-blue-300 focus:bg-white"
+          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-misty focus:bg-coolgray"
           onClick={() => setToggleState(1)}
         >
           Mission
         </button>
         <button
-          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-blue-300 focus:bg-white"
+          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-misty focus:bg-coolgray"
           onClick={() => setToggleState(2)}
         >
           Who we serve
         </button>
         <button
-          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-blue-300 focus:bg-white"
+          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-misty focus:bg-coolgray"
           onClick={() => setToggleState(3)}
         >
           Our community
@@ -28,7 +28,7 @@ export const Tabs = () => {
 
       <div className="w-full h-full p-2">
         {toggleState === 0 && (
-          <div className="bg-white p-5 w-full h-full">
+          <div className="bg-coolgray p-5 w-full h-full">
             <h2 className="pb-2">Learn more</h2>
             <hr />
             <p className="w-full h-full">
@@ -37,19 +37,19 @@ export const Tabs = () => {
           </div>
         )}
         {toggleState === 1 && (
-          <div className="bg-white p-5 w-full h-full">
+          <div className="bg-coolgray p-5 w-full h-full">
             <h2 className="pb-2">Connect, Empower, Grow</h2>
             <hr />
             <p className="w-full h-full">
-              Our mission is to connect residents with technology and skills to
-              earn a better living by attending a part-time 9 month in-person
-              software development bootcamp.
+              Dev-Island's mission is to connect residents with technology and
+              skills to earn a better living by attending a software-development
+              bootcamp.
             </p>
           </div>
         )}
 
         {toggleState === 2 && (
-          <div className="bg-white p-5 w-full h-full">
+          <div className="bg-coolgray p-5 w-full h-full">
             <h2 className="pb-2">Students, Organizations, Community</h2>
             <hr />
             <div>
@@ -66,7 +66,7 @@ export const Tabs = () => {
           </div>
         )}
         {toggleState === 3 && (
-          <div className="bg-white p-5 w-full h-full">
+          <div className="bg-coolgray p-5 w-full h-full">
             <h2 className="pb-2">Kauaʻi</h2>
             <hr />
             <p className="w-full h-full">Kauaʻi, the Garden Island, is home.</p>

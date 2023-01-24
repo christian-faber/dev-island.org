@@ -18,14 +18,14 @@ export const Cohort = ({
         Cohort
       </h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
-        {students.map((name) => (
+        {students.map((item) => (
           <div
             onClick={() => (setOpen(true), setCharacter(`${students.name}`))}
             className="border flex flex-col items-center"
           >
             <img
               src={students.image}
-              alt="sharece"
+              alt={`${students.name}`}
               className="border rounded-full h-20 w-20 object-contain"
             ></img>
             <h1>{students.name}</h1>

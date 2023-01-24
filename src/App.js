@@ -12,21 +12,21 @@ import { CallToAction } from "./components/CallToAction";
 
 function App() {
   return (
-    <div className="App">
-      <div className="w-full">
-        <NavBar />
+    <div className="App bg-coolgray">
+      <NavBar />
+      <div className="">
+        <CallToAction />
+        <Routes>
+          <Route path="/" element={<Page />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/students" element={<Students />} />
+          <Route path="/getinvolved" element={<GetInvolved />} />
+          <Route path="/apply" element={<Apply />} />
+        </Routes>
       </div>
-      <CallToAction />
-      <Routes>
-        <Route path="/" element={<Page />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/students" element={<Students />} />
-        <Route path="/getinvolved" element={<GetInvolved />} />
-        <Route path="/apply" element={<Apply />} />
-      </Routes>
     </div>
   );
 }

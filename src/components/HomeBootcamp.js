@@ -36,12 +36,12 @@ export const HomeBootcamp = () => {
       </div>
       <div className="flex p-5 justify-center space-x-10">
         <Link to="/apply" className="w-1/4">
-          <button className="border bg-purple-500 min-w-full rounded-lg p-5 shadow-md">
+          <button className="border bg-seaside min-w-full rounded-lg p-5 shadow-md text-coolgray">
             Apply
           </button>
         </Link>
         <Link to="/donate" className="w-1/4">
-          <button className="border bg-purple-500 min-w-full rounded-lg p-5  shadow-md">
+          <button className="border bg-seaside min-w-full rounded-lg p-5 text-coolgray shadow-md">
             Donate
           </button>
         </Link>

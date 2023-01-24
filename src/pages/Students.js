@@ -3,7 +3,7 @@ import { useState } from "react";
 import { AboutModal } from "../components/modals/AboutModal";
 import { Link } from "react-router-dom";
 import { Alumni } from "../components/Alumni";
-// import { personnel } from "../data/personnel.json";
+import personnel from "../data/personnel.json";
 
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
@@ -11,12 +11,18 @@ export const Students = () => {
 
   return (
     <div className="flex align-middle flex-col justify-center items-center">
-      {modalOpen && <AboutModal character={character} setOpen={setOpen} />}
-      <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
+      {modalOpen && (
+        <AboutModal
+          students={personnel.students}
+          character={character}
+          setOpen={setOpen}
+        />
+      )}
+      <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-misty w-full text-white">
         Become a Student
       </h1>
       <div className="">
-        <div className="mt-4 border w-11/12">
+        <div className="mt-4 border-seaside border-2 rounded-xl w-11/12">
           <h1>Key Points</h1>
           <ul>
             <li>Cost: $0</li>
@@ -24,7 +30,7 @@ export const Students = () => {
             <li>Difficulty: Worth it</li>
           </ul>
         </div>
-        <div className="mt-4 border w-11/12">
+        <div className="mt-4 border-seaside border-2 rounded-xl w-11/12">
           <h1>Curriculum</h1>
           <h2>Techical Skills</h2>
           <p className="ml-2">React JS, HTML, CSS</p>
@@ -40,7 +46,7 @@ export const Students = () => {
           <h2>Leadership</h2>
           <h2>Handling emotions</h2>
         </div>
-        <div className="my-4 border w-11/12">
+        <div className="my-4 border-seaside border-2 rounded-xl w-11/12">
           <h1>Team</h1>
           <h2>Connection</h2>
           <p>Slack, github, check-ins</p>
@@ -58,14 +64,14 @@ export const Students = () => {
         </div>
         <hr />
         <div>
-          <h1>Studnet Stories</h1>
-          {/* <Cohort
-            // students={personnel.students}
+          <h1>Student Stories</h1>
+          <Cohort
+            students={personnel.students}
             modalOpen={modalOpen}
             setOpen={setOpen}
             character={character}
             setCharacter={setCharacter}
-          /> */}
+          />
           <Alumni />
         </div>
         <div>
@@ -77,7 +83,7 @@ export const Students = () => {
         </div>
         <div>
           <Link to="/apply" className="">
-            <button className="border-2 p-4 m-2 shadow bg-purple-300 text-white">
+            <button className="border-2 rounded-xl p-4 m-2 shadow bg-misty text-white">
               BECOME A STUDENT!
             </button>
           </Link>
