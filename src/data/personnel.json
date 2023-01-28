@@ -3,12 +3,12 @@
     {
       "name": "Kamalani",
       "position": "Program Manager",
-      "background": "lorem ipsum",
+      "background": "Kamalani Brun is a writer, marketing manager and student/graduate of Dev-Island's coding bootcamp. Kamalani has experience writing website copy, novels, and educational content for curriculums. Kamalani graduated from Western Washington University with a bachelor's degree in Environmental Studies with minors in Geography and Disaster Risk Reduction.",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_25.jpg",
-      "statement": "Dev-Island has offered us the space to not only look at how we can improve our professional skills, but how we can improve ourselves. The community we've created has acted as a mirror for many of us. We've had no choice but to think about the 'why' in every aspect of our lives, and that's a beautiful thing."
+      "image": "/assets/Kama.jpg",
+      "statement": "As a local creative, I feel incredibly lucky to have been afforded the opportunity to add this skillset to my repertoire. While writing is my passion, I value all forms of storytelling and, more than anything, the ability to fulfill a need in my community."
     },
     {
       "name": "Travis",
@@ -38,19 +38,19 @@
       "github": "https://github.com/christian-faber",
       "otherlink": "",
       "image": "/assets/DevIslandSchool_18.jpg",
-      "statement": ""
+      "statement": "I've been having a lot of fun with everything! I feel accomplished whenever I get a component to work or finish a project! "
     }
   ],
   "team": [
     {
       "name": "Kamalani",
       "position": "Program Manager",
-      "background": "",
+      "background": "Kamalani Brun is a writer, marketing manager and student/graduate of Dev-Island's coding bootcamp. Kamalani has experience writing website copy, novels, and educational content for curriculums. Kamalani graduated from Western Washington University with a bachelor's degree in Environmental Studies with minors in Geography and Disaster Risk Reduction.",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_25.jpg",
-      "statement": ""
+      "image": "/assets/Kama.jpg",
+      "statement": "Dev-Island has offered us the space to not only look at how we can improve our professional skills, but how we can improve ourselves. The community we've created has acted as a mirror for many of us. We've had no choice but to think about the 'why' in every aspect of our lives and that's a beautiful thing."
     },
 
     {

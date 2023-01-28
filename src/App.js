@@ -16,6 +16,7 @@ function App() {
     <div className="App bg-coolgray">
       <div className="">
         <MobileButton />
+        <Top />
         <CallToAction />
         <Routes>
           <Route path="/" element={<Page />} />

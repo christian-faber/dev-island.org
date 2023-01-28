@@ -13,16 +13,16 @@ export const Banner = () => {
       <div className="flex flex-col justify-end items-end px-10 lg:w-1/3 lg:h-1/6 opacity-80 rounded-xl">
         <Link to="/students" className="">
           <div className="">
-            <h1 className="text-2xl text-left text-white bold">
+            <h1 className="text-2xl text-left text-white bold font-bold">
               Kama'āina driven.
             </h1>
-            <h1 className="text-2xl text-left text-white bold">
+            <h1 className="text-2xl text-left text-white bold font-bold">
               Kaiāulu focused.
             </h1>
           </div>
           <hr />
           <div className="flex justify-center">
-            <p className="text-lg text-left text-white p-1 active:underline">
+            <p className="text-lg text-left text-white p-1 active:underline font-semibold">
               Empowering Kauaʻi's own by training local web developers.
             </p>
           </div>
