@@ -39,15 +39,15 @@ export const CallToAction = () => {
       <ul className="flex flex-row w-full [&>*]:rounded-lg [&>*]:shadow-lg">
         <Link
           to="/apply"
-          className="w-full h-10 m-[2px] bg-seaside text-white flex justify-center align-middle items-center"
+          className="w-full h-10 m-[2px] bg-misty text-coolgray flex justify-center align-middle items-center"
         >
-          <li className="text-white">Apply</li>
+          <li className="text-coolgray">Apply</li>
         </Link>
         <Link
           to="/donate"
-          className="w-full h-10 m-[2px] bg-seaside text-white flex justify-center align-middle items-center"
+          className="w-full h-10 m-[2px] bg-misty text-coolgray flex justify-center align-middle items-center"
         >
-          <li className=" text-white">Donate</li>
+          <li className=" text-coolgray">Donate</li>
         </Link>
       </ul>
     </div>

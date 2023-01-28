@@ -1,8 +1,3 @@
-import sharece from "../assets/DevIslandSchool_00.jpg";
-import kama from "../assets/DevIslandSchool_08.jpg";
-import travis from "../assets/DevIslandSchool_20.jpg";
-import christian from "../assets/DevIslandSchool_17.jpg";
-
 export const Cohort = ({
   modalOpen,
   setOpen,
@@ -10,28 +5,30 @@ export const Cohort = ({
   setCharacter,
   students,
 }) => {
-  console.log(modalOpen);
-  console.log(character);
+  console.log(students);
+
   return (
     <div>
-      <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
+      <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-misty text-white w-full">
         Cohort
       </h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
-        {students.map((item) => (
+        {students.map((student) => (
           <div
-            onClick={() => (setOpen(true), setCharacter(`${students.name}`))}
+            key={student.name}
+            onClick={() => (setOpen(true), setCharacter(student))}
             className="border flex flex-col items-center"
           >
             <img
-              src={students.image}
-              alt={`${students.name}`}
+              src={`${student.image}`}
+              alt={`${student.name}`}
               className="border rounded-full h-20 w-20 object-contain"
             ></img>
-            <h1>{students.name}</h1>
+            <h1>{student.name}</h1>
           </div>
         ))}
-        <div
+
+        {/* <div
           onClick={() => (setOpen(true), setCharacter("kama"))}
           className="border flex flex-col items-center"
         >
@@ -63,7 +60,7 @@ export const Cohort = ({
             className="border rounded-full h-20 w-20 object-contain"
           ></img>
           <h1>Christian</h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );

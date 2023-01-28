@@ -8,16 +8,12 @@ import personnel from "../data/personnel.json";
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
   const [character, setCharacter] = useState("");
-
   return (
     <div className="flex align-middle flex-col justify-center items-center">
-      {modalOpen && (
-        <AboutModal
-          students={personnel.students}
-          character={character}
-          setOpen={setOpen}
-        />
+      {modalOpen && character && (
+        <AboutModal character={character} setOpen={setOpen} />
       )}
+
       <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-misty w-full text-white">
         Become a Student
       </h1>
@@ -72,7 +68,13 @@ export const Students = () => {
             character={character}
             setCharacter={setCharacter}
           />
-          <Alumni />
+          <Alumni
+            alumni={personnel.alumni}
+            modalOpen={modalOpen}
+            setOpen={setOpen}
+            character={character}
+            setCharacter={setCharacter}
+          />
         </div>
         <div>
           <h1>Testimonial</h1>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import { HomeBootcamp } from "./components/HomeBootcamp";
-import { NavBar } from "./components/NavBar";
+import { Top } from "./components/Top";
 import { Tabs } from "./components/Tabs";
 // import { Donate } from "./components/Donate";
 // import { AboutUs } from "./components/AboutUs";
@@ -10,6 +10,7 @@ import { Tabs } from "./components/Tabs";
 export const Page = () => {
   return (
     <>
+      <Top />
       <div className="w-full">
         <Banner />
       </div>

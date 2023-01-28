@@ -1,20 +1,27 @@
 import { Link } from "react-router-dom";
-import { MobileNavBar } from "./MobileNavBar";
-import logo from "../../src/assets/logo/Dev-Island_SeasideLogo.svg";
 
-export const NavBar = () => {
+export const Top = () => {
   // const logo = "</>";
   return (
     <>
-      <MobileNavBar />
-
-      <div className="hidden lg:block">
-        <div className="bg-coolgray flex-row items-center flex shadow-sm p-5">
+      <div className="flex justify-center">
+        <div className="w-2/3 flex items-center align-center justify-center lg:hidden">
+          <img
+            src="/assets/logo/Dev-Island_SeasideLogo.svg"
+            className="z-50 h-3/4"
+            alt="logo"
+          ></img>
+        </div>
+        <div className="bg-coolgray flex-row items-center  shadow-sm p-5 hidden lg:flex">
           <Link
             to="/"
             className="bg-coolgray hover:bg-coolgray hover:border-misty w-40 h-20 rounded-full flex justify-center items-center border shadow-md transform transition hover:scale-125"
           >
-            <img src={logo} className="z-50" alt="logo"></img>
+            <img
+              src="/assets/logo/Dev-Island_SeasideLogo.svg"
+              className="z-50"
+              alt="logo"
+            ></img>
           </Link>
           <ul className="flex items-center p-3 align-center justify-centerf [&>*]:p-3 [&>*]:text-black">
             <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline">
@@ -33,6 +40,9 @@ export const NavBar = () => {
               <Link to="/getinvolved">Get Involved</Link>
             </li>
           </ul>
+          <button className="absolute right-10 rounded-2xl bg-misty text-white px-5 py-2 shadow-xl">
+            Apply
+          </button>
         </div>
       </div>
     </>

@@ -1,6 +1,8 @@
-import placeholder from "../../assets/DevIslandSchool_27.jpg";
+import { useState } from "react";
 
-export const AboutModal = ({ setOpen, team, partner }) => {
+export const AboutModal = ({ setOpen, character }) => {
+  //useEffect any time character changes, team.find(character vs team member.name)
+  //usestate for person
   return (
     <>
       {/* overlay */}
@@ -14,10 +16,10 @@ export const AboutModal = ({ setOpen, team, partner }) => {
           {/* body */}
           <div className="bg-white p-5 rounded-lg flex justify-center space-x-10 ">
             <div className="border w-1/3">
-              <h1 className="uppercase text-3xl ">{team.name}</h1>
+              <h1 className="uppercase text-3xl ">{character.name}</h1>
               <div className="w-full">
                 <img
-                  src={team.image}
+                  src={character.image}
                   alt="face"
                   className="rounded-full  h-full object-cover"
                 ></img>
@@ -36,9 +38,7 @@ export const AboutModal = ({ setOpen, team, partner }) => {
                 {/* section 1 */}
                 <div className="border">
                   <h1 className="text-lg">Background</h1>
-                  <p className="text-md">
-                    This will likely be filled by data from a json file
-                  </p>
+                  <p className="text-md">{character.background}</p>
                 </div>
                 {/* section 2 */}
                 <div className="border">

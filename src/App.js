@@ -6,15 +6,16 @@ import { Project } from "./pages/Project";
 import { Faq } from "./pages/Faq";
 import { GetInvolved } from "./pages/GetInvolved";
 import { Apply } from "./pages/Apply";
-import { NavBar } from "./components/NavBar";
+import { Top } from "./components/Top";
 import { Students } from "./pages/Students";
 import { CallToAction } from "./components/CallToAction";
+import { MobileButton } from "./components/MobileButton";
 
 function App() {
   return (
     <div className="App bg-coolgray">
-      <NavBar />
       <div className="">
+        <MobileButton />
         <CallToAction />
         <Routes>
           <Route path="/" element={<Page />} />

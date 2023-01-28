@@ -7,8 +7,8 @@
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_25.jpg",
-      "statement": ""
+      "image": "/assets/DevIslandSchool_25.jpg",
+      "statement": "Dev-Island has offered us the space to not only look at how we can improve our professional skills, but how we can improve ourselves. The community we've created has acted as a mirror for many of us. We've had no choice but to think about the 'why' in every aspect of our lives, and that's a beautiful thing."
     },
     {
       "name": "Travis",
@@ -17,7 +17,7 @@
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_20.jpg",
+      "image": "/assets/DevIslandSchool_20.jpg",
       "statement": ""
     },
     {
@@ -27,7 +27,7 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_01.jpg",
+      "image": "/assets/DevIslandSchool_01.jpg",
       "statement": ""
     },
     {
@@ -37,7 +37,7 @@
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_18.jpg",
+      "image": "/assets/DevIslandSchool_18.jpg",
       "statement": ""
     }
   ],
@@ -45,11 +45,11 @@
     {
       "name": "Kamalani",
       "position": "Program Manager",
-      "background": "lorem ipsum",
+      "background": "",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_25.jpg",
+      "image": "/assets/DevIslandSchool_25.jpg",
       "statement": ""
     },
 
@@ -60,7 +60,7 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_01.jpg",
+      "image": "/assets/DevIslandSchool_01.jpg",
       "statement": ""
     },
 
@@ -71,7 +71,17 @@
       "linkedin": "https://www.linkedin.com/in/aj-webb/",
       "github": "https://github.com/webbushka",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_12.jpg",
+      "image": "/assets/DevIslandSchool_12.jpg",
+      "statement": ""
+    },
+    {
+      "name": "Natalia",
+      "position": "Business Operations & Marketing Manager",
+      "background": "",
+      "linkedin": "https://www.linkedin.com/in/natalia-alvarez-340a5525b/",
+      "github": "",
+      "otherlink": "",
+      "image": "/assets/DevIslandSchool_12.jpg",
       "statement": ""
     },
     {
@@ -81,7 +91,7 @@
       "linkedin": "https://www.linkedin.com/in/richuhl/",
       "github": "",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_04.jpg",
+      "image": "/assets/DevIslandSchool_04.jpg",
       "statement": ""
     },
     {
@@ -205,7 +215,7 @@
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_25.jpg",
+      "image": "/assets/DevIslandSchool_25.jpg",
       "statement": ""
     },
     {
@@ -215,7 +225,7 @@
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_20.jpg",
+      "image": "/assets/DevIslandSchool_20.jpg",
       "statement": ""
     },
     {
@@ -225,7 +235,7 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "src/assets/DevIslandSchool_01.jpg",
+      "image": "/assets/DevIslandSchool_01.jpg",
       "statement": ""
     },
     {
@@ -235,7 +245,7 @@
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
       "otherlink": "https://communitypursuit.com",
-      "image": "src/assets/DevIslandSchool_18.jpg",
+      "image": "/assets/DevIslandSchool_18.jpg",
       "statement": ""
     }
   ]

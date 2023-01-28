@@ -1,18 +1,31 @@
-import sharece from "../assets/DevIslandSchool_00.jpg";
-import kama from "../assets/DevIslandSchool_08.jpg";
-import travis from "../assets/DevIslandSchool_20.jpg";
-import christian from "../assets/DevIslandSchool_17.jpg";
-
-export const Alumni = ({ modalOpen, setOpen, character, setCharacter }) => {
-  console.log(modalOpen);
-  console.log(character);
+export const Alumni = ({
+  modalOpen,
+  setOpen,
+  character,
+  setCharacter,
+  alumni,
+}) => {
   return (
     <div>
       <h2 className="flex align-center items-center justify-center text-white text-xl font-sans bg-gradient-to-b bg-misty w-full">
         Alumni
       </h2>
       <div className="flex flex-wrap justify-center space-x-4 my-4">
-        <div
+        {alumni.map((alum) => (
+          <div
+            key={alum.name}
+            onClick={() => (setOpen(true), setCharacter(`${alum.name}`))}
+            className="border flex flex-col items-center"
+          >
+            <img
+              src={`${alum.image}`}
+              alt={`${alum.name}`}
+              className="border rounded-full h-20 w-20 object-contain"
+            ></img>
+            <h1>{alum.name}</h1>
+          </div>
+        ))}
+        {/* <div
           onClick={() => (setOpen(true), setCharacter("sharece"))}
           className="border flex flex-col items-center"
         >
@@ -55,7 +68,7 @@ export const Alumni = ({ modalOpen, setOpen, character, setCharacter }) => {
             className="border rounded-full h-20 w-20 object-contain"
           ></img>
           <h1>Christian</h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );

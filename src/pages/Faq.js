@@ -210,7 +210,7 @@ export const Faq = () => {
           <h1>Frequently Asked Questions</h1>
           <Accordion allowZeroExpanded>
             {FAQS.map(({ question, answer }) => (
-              <div className="border m-5">
+              <div className="border-2 border-seaside m-5">
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
