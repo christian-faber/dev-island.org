@@ -11,14 +11,15 @@ export const MobileButton = () => {
     <>
       <div
         onClick={() => setOpen(!isOpen)}
-        className="fixed top-4 left-2 w-20 h-10 rounded-full flex justify-center 
+        className="fixed top-[4%] left-[2%] w-[20%]  rounded-full flex justify-center 
         items-center border shadow-md transform transition hover:scale-125
          bg-coolgray lg:hidden z-50 "
       >
         {isOpen === false && (
           <>
             <p>{openTag}</p>
-            <img className="w-1/2" src={logo} alt="D"></img>
+            <img className="w-1/2 lg:hidden" src={logo} alt="D"></img>
+            {/* <img className="w-1/2 lg:hidden" src={logo} alt="D"></img> */}
 
             <p>{closeOpenTag}</p>
           </>
@@ -26,7 +27,8 @@ export const MobileButton = () => {
         {isOpen === true && (
           <>
             <p>{openTag}</p>
-            <img className="w-1/2" src={logo} alt="D"></img>
+            <img className="w-1/2 lg:hidden" src={logo} alt="D"></img>
+            {/* <img className="w-1/2 lg:hidden" src={logo} alt="D"></img> */}
 
             <p>{closeTag}</p>
           </>

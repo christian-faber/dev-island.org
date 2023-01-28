@@ -4,7 +4,7 @@ export const Top = () => {
   // const logo = "</>";
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center h-[10%]">
         <div className="w-2/3 flex items-center align-center justify-center lg:hidden">
           <img
             src="/assets/logo/Dev-Island_SeasideLogo.svg"

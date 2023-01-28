@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Banner = () => {
   return (
     <div className="bg-seaside pb-4">
-      <div className="border-black mb-6 flex justify-end">
+      <div className="border-black mb-6 mr-0 md:mr-2 lg:mr-4 flex justify-end">
         <img
           src="/assets/Banner.jpg"
           alt="Banner"
