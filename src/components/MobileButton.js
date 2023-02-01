@@ -11,9 +11,9 @@ export const MobileButton = () => {
     <>
       <div
         onClick={() => setOpen(!isOpen)}
-        className="fixed top-[4%] left-[2%] w-[20%]  rounded-full flex justify-center 
+        className="fixed top-[2.5%] md:top-[4%] left-[2%] w-[20%] rounded-full flex justify-center 
         items-center border shadow-md transform transition hover:scale-125
-         bg-coolgray lg:hidden z-50 "
+         bg-coolgray lg:hidden z-50"
       >
         {isOpen === false && (
           <>
@@ -35,7 +35,7 @@ export const MobileButton = () => {
         )}
       </div>
       {isOpen && (
-        <div className="flex-row flex absolute top-10 left-0 shadow-sm z-50">
+        <div>
           <MobileDropdown />
         </div>
       )}

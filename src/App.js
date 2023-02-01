@@ -13,7 +13,7 @@ import { MobileButton } from "./components/MobileButton";
 
 function App() {
   return (
-    <div className="App bg-coolgray">
+    <div className=" bg-coolgray">
       <div className="">
         <MobileButton />
         <Top />

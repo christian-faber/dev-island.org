@@ -7,16 +7,19 @@ export const Banner = () => {
         <img
           src="/assets/Banner.jpg"
           alt="Banner"
-          className="shadow-xl rounded-lg lg:w-3/4"
+          className="shadow-xl rounded-lg lg:w-3/4 mt-1"
         ></img>
       </div>
-      <div className="flex flex-col justify-end items-end px-10 lg:w-1/3 lg:h-1/6 opacity-80 rounded-xl">
+      <div className="flex flex-col justify-end items-end px-10 lg:w-1/2 lg:h-1/6 opacity-80 rounded-xl">
         <Link to="/students" className="">
+          <h1 className="hidden lg:flex text-2xl text-left text-white bold font-bold">
+            Kamaʻāina driven. Kaiāulu focused.
+          </h1>
           <div className="">
-            <h1 className="text-2xl text-left text-white bold font-bold">
+            <h1 className="lg:hidden text-2xl text-left text-white bold font-bold">
               Kama'āina driven.
             </h1>
-            <h1 className="text-2xl text-left text-white bold font-bold">
+            <h1 className="lg:hidden text-2xl text-left text-white bold font-bold">
               Kaiāulu focused.
             </h1>
           </div>
