@@ -23,7 +23,7 @@ export const Top = () => {
               alt="logo"
             ></img>
           </Link>
-          <ul className="flex items-center p-3 align-right justify-center [&>*]:p-3 [&>*]:text-black">
+          <ul className="flex items-center p-3 align-right justify-center [&>*]:p-5 [&>*]:text-black">
             <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline font-semibold text-lg">
               <Link to="/students">Students</Link>
             </li>

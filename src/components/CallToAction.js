@@ -10,17 +10,17 @@ export const CallToAction = () => {
             href="https://www.linkedin.com/company/hidev-island/"
             className="h-full w-full flex justify-center align-middle items-center"
           >
-            <i className="">
+            <i className=" border-og ">
               <FaLinkedin />
             </i>
           </a>
         </li>
-        <li className="m-[2px] h-10 w-1/3  bg-misty text-black">
+        <li className="m-[2px] h-10 w-1/3 bg-misty text-black">
           <a
             href="https://github.com/orgs/dev-island/"
             className="h-full w-full  flex justify-center align-middle items-center"
           >
-            <i className="">
+            <i className="bg-coolgray border-misty rounded-full">
               <FaGithub />
             </i>
           </a>
@@ -30,7 +30,7 @@ export const CallToAction = () => {
             href="https://instagram.com/devislandkauai?igshid=YmMyMTA2M2Y="
             className="h-full w-full flex justify-center align-middle items-center"
           >
-            <i className="">
+            <i className=" rounded-md">
               <FaInstagram />
             </i>
           </a>

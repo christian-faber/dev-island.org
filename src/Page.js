@@ -6,10 +6,10 @@ import { Tabs } from "./components/Tabs";
 export const Page = () => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full z-10">
         <Banner />
       </div>
-      <div className="w-full">
+      <div className="w-full z-20">
         <HomeBootcamp />
       </div>
 
