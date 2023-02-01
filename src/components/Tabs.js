@@ -4,29 +4,29 @@ export const Tabs = () => {
   const [toggleState, setToggleState] = useState(0);
 
   return (
-    <div className="flex flex-row w-full h-[500px] border border-black bg-seaside">
-      <div className="flex flex-col w-1/3 lg:w-1/6 h-1/2">
+    <div className="flex flex-row w-full h-[500px] rounded-xl bg-seaside pt-2 pl-2">
+      <div className="flex flex-col w-1/3 lg:w-1/6 h-2/5 rounded-xl">
         <button
-          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-misty focus:bg-coolgray"
+          className="align-center p-3 w-full h-1/3  rounded-l-2xl cursor-pointer bg-misty focus:bg-coolgray focus:text-black text-coolgray"
           onClick={() => setToggleState(1)}
         >
           Mission
         </button>
         <button
-          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-misty focus:bg-coolgray"
+          className="align-center p-3 w-full h-1/3  rounded-l-2xl cursor-pointer bg-misty focus:bg-coolgray focus:text-black text-coolgray"
           onClick={() => setToggleState(2)}
         >
           Who we serve
         </button>
         <button
-          className="align-center  p-4 w-full h-1/3 border-b-1 cursor-pointer bg-misty focus:bg-coolgray"
+          className="align-center p-3 w-full h-1/3  rounded-l-2xl cursor-pointer bg-misty focus:bg-coolgray focus:text-black text-coolgray"
           onClick={() => setToggleState(3)}
         >
           Our community
         </button>
       </div>
 
-      <div className="w-full h-full p-2">
+      <div className="w-full h-full pb-2 pr-2">
         {toggleState === 0 && (
           <div className="bg-coolgray p-5 w-full h-full">
             <h2 className="pb-2">Learn more</h2>
