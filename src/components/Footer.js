@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
-    <div>
-      <h2>TM Dev-Island 2022</h2>
+    <div className="p-12">
+      <h2 className="text-left">TM Dev-Island 2022</h2>
     </div>
   );
 };
