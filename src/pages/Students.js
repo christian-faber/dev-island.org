@@ -8,88 +8,213 @@ import personnel from "../data/personnel.json";
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
   const [character, setCharacter] = useState("");
+  const [openOverview, setOverview] = useState(false);
+  const [openCurriculum, setCurriculum] = useState(false);
+  const [openEnvironment, setEnvironment] = useState(false);
+  const [openStudent, setStudent] = useState(false);
+
   return (
     <div className="flex align-middle flex-col justify-center items-center">
       {modalOpen && character && (
         <AboutModal character={character} setOpen={setOpen} />
       )}
+      <div
+        className="flex align-center items-center justify-center
+          bg-gradient-to-b w-full px-[5%] py-5 hover:scale-125 transition transform"
+      >
+        <Link to="/apply" className="">
+          <button className="border-2 rounded-xl p-4 shadow-xl m-2 bg-seaside text-coolgray text-2xl">
+            BECOME A STUDENT!
+          </button>
+        </Link>
+      </div>
+      <div className="flex flex-col w-5/6 justify-center">
+        <div className="mt-4 border-seaside bg-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
+          {!openOverview && (
+            <div
+              onClick={() => setOverview(true)}
+              className="flex flex-row justify-between"
+            >
+              <h1 className="text-3xl">Overview</h1>
+              <button className="text-3xl">+</button>
+            </div>
+          )}
+          {openOverview && (
+            <>
+              <div
+                onClick={() => setOverview(false)}
+                className="flex flex-row justify-between "
+              >
+                <h1 className="text-3xl border-b-2 border-black">Overview</h1>
+                <button className="text-3xl">-</button>
+              </div>
+              <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                <li>Scholarships available</li>
+                <li>
+                  Time: March - February, 3 hour class Tuesdays and Thursdays
+                </li>
+                <li>Difficulty: Worth it</li>
+              </ul>
+            </>
+          )}
+        </div>
+        <div className="mt-4 border-seaside bg-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
+          {!openCurriculum && (
+            <div
+              onClick={() => setCurriculum(true)}
+              className="flex-row flex justify-between"
+            >
+              <h1 className="text-3xl">Curriculum</h1>
+              <button className="text-3xl">+</button>
+            </div>
+          )}
+          {openCurriculum && (
+            <>
+              <div
+                onClick={() => setCurriculum(false)}
+                className="flex-row flex justify-between"
+              >
+                <h1 className="text-3xl border-b-2 border-black">Curriculum</h1>
+                <button className="text-3xl">-</button>
+              </div>
+              <div className="m-4">
+                <h2 className="font-semibold text-xl justify-center flex">
+                  Languages
+                </h2>
+                <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                  <li>React.js</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <div className="m-4">
+                <h2 className="font-semibold text-xl justify-center flex">
+                  Techical Skills
+                </h2>
+                <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                  <li>Individual Projects</li>
+                  <li>Code-Along</li>
+                  <li>Capstone</li>
+                </ul>
+              </div>
+              <div className="m-4">
+                <h2 className="font-semibold text-xl justify-center flex">
+                  Professional Skills
+                </h2>
+                <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                  <li>Mock Interviews</li>
+                  <li>Resume creation</li>
+                  <li>Job-search Strategy</li>
+                  <li>Networking Practice</li>
+                  <li>Expectation Setting</li>
+                  <li>Mentorship</li>
+                </ul>
+              </div>
+            </>
+          )}
+        </div>
+        <div className="mt-4 border-seaside bg-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
+          {!openEnvironment && (
+            <div
+              onClick={() => setEnvironment(true)}
+              className="flex flex-row justify-between"
+            >
+              <h1 className="text-3xl">Environment</h1>
+              <button className="text-3xl">+</button>
+            </div>
+          )}
+          {openEnvironment && (
+            <>
+              <div
+                onClick={() => setEnvironment(false)}
+                className="flex flex-row justify-between"
+              >
+                <h1 className="text-3xl border-b-2 border-black">
+                  Environment
+                </h1>
+                <button className="text-3xl">-</button>
+              </div>
+              <div className="m-4">
+                <h2 className="font-semibold text-xl justify-center flex">
+                  Connection
+                </h2>
+                <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                  <li>Slack</li>
+                  <li>GitHub</li>
+                  <li>Virtual Office</li>
+                </ul>
+              </div>
+              <div className="m-4">
+                <h2 className="font-semibold text-xl justify-center flex">
+                  Accountability
+                </h2>
+                <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                  <li>Collaboration</li>
+                  <li>Commitment</li>
+                </ul>
+              </div>
+              <div className="m-4">
+                <h2 className="font-semibold text-xl justify-center flex">
+                  Support
+                </h2>
+                <ul className="list-disc [&>*]:ml-4 [&>*]:text-xl">
+                  <li>Help when you ask</li>
+                  <li>Mentorship</li>
+                  <li>Emotional support</li>
+                </ul>
+              </div>
+            </>
+          )}
+        </div>
+        <div className="mt-4 border-seaside bg-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
+          {!openStudent && (
+            <div
+              onClick={() => setStudent(true)}
+              className="flex flex-row justify-between"
+            >
+              <h1 className="text-3xl">Student Stories</h1>
+              <button className="text-3xl">+</button>
+            </div>
+          )}
+          {openStudent && (
+            <>
+              <div
+                onClick={() => setStudent(false)}
+                className="flex flex-row justify-between"
+              >
+                <h1 className="text-3xl border-b-2 border-black">
+                  Student Stories
+                </h1>
+                <button className="text-3xl">-</button>
+              </div>
+              <div className="mt-4">
+                <Cohort
+                  students={personnel.students}
+                  modalOpen={modalOpen}
+                  setOpen={setOpen}
+                  character={character}
+                  setCharacter={setCharacter}
+                />
+                <Alumni
+                  alumni={personnel.alumni}
+                  modalOpen={modalOpen}
+                  setOpen={setOpen}
+                  character={character}
+                  setCharacter={setCharacter}
+                />
+              </div>
+            </>
+          )}
+        </div>
+      </div>
 
-      <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-misty w-full text-white">
-        Become a Student
-      </h1>
-      <div className="">
-        <div className="mt-4 border-seaside border-2 rounded-xl w-11/12">
-          <h1>Key Points</h1>
-          <ul>
-            <li>Cost: $0</li>
-            <li>Time: March - February, 3 hour class Tuesdays and Thursdays</li>
-            <li>Difficulty: Worth it</li>
-          </ul>
-        </div>
-        <div className="mt-4 border-seaside border-2 rounded-xl w-11/12">
-          <h1>Curriculum</h1>
-          <h2>Techical Skills</h2>
-          <p className="ml-2">React JS, HTML, CSS</p>
-          <p className="ml-2">Individual projects</p>
-          <p className="ml-2">Code-along</p>
-          <p className="ml-2">Real project experience</p>
-          <h2>Professional Accumen</h2>
-          <p className="ml-2">Mock interviews</p>
-          <p className="ml-2">Resume</p>
-          <p className="ml-2">Searching strategies</p>
-          <p className="ml-2">Onboarding support</p>
-          <p className="ml-2">Expectation building</p>
-          <h2>Leadership</h2>
-          <h2>Handling emotions</h2>
-        </div>
-        <div className="my-4 border-seaside border-2 rounded-xl w-11/12">
-          <h1>Team</h1>
-          <h2>Connection</h2>
-          <p>Slack, github, check-ins</p>
-          <h2>Accountability</h2>
-          <p>Collaboration and commitment</p>
-          <h2>Support</h2>
-          <p>Help always available. Emotional support</p>
-        </div>
-        <div>
-          <h2>Still unsure?</h2>
-          <p>How do I know I want to code?</p>
-          <p>Example projects</p>
-          <p>Example Videos</p>
-          <p>What others are saying</p>
-        </div>
-        <hr />
-        <div>
-          <h1>Student Stories</h1>
-          <Cohort
-            students={personnel.students}
-            modalOpen={modalOpen}
-            setOpen={setOpen}
-            character={character}
-            setCharacter={setCharacter}
-          />
-          <Alumni
-            alumni={personnel.alumni}
-            modalOpen={modalOpen}
-            setOpen={setOpen}
-            character={character}
-            setCharacter={setCharacter}
-          />
-        </div>
-        <div>
-          <h1>Testimonial</h1>
-          <p>
-            This is where I will insert a quote from the students. This section
-            could be included in another section that has the circles.
-          </p>
-        </div>
-        <div>
-          <Link to="/apply" className="">
-            <button className="border-2 rounded-xl p-4 m-2 shadow bg-misty text-white">
-              BECOME A STUDENT!
-            </button>
-          </Link>
-        </div>
+      <div>
+        <h1>Testimonial</h1>
+        <p>
+          This is where I will insert a quote from the students. This section
+          could be included in another section that has the circles.
+        </p>
       </div>
     </div>
   );

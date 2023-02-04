@@ -18,10 +18,8 @@ export const HomeBootcamp = () => {
             </p>
             <ul className="list-disc px-6 [&>*]:p-2 [&>*]:my-4 text-2xl lg:ml-16 ml-10">
               <li className="">9 month bootcamp</li>
-              <li className="lg:ml-4">Classes held in-person</li>
-              <li className="lg:ml-8">
-                Open to all ages, backgrounds, and experience
-              </li>
+              <li className="lg:ml-4">Classes held in-person and online</li>
+              <li className="lg:ml-8">Scholarships available</li>
             </ul>
           </div>
           <div className="lg:relative lg:w-1/3 bg-coolgray border-8 lg:border-4 border-og rounded-xl">

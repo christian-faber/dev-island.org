@@ -2,7 +2,10 @@ export const Donate = () => {
   return (
     <div>
       <div className="bg-purple-400 h-50 flex justify-center items-center align-center">
-        <button className="bg-black text-white rounded-2xl p-5 m-5">
+        <button
+          className="bg-black text-white rounded-2xl p-5 m-5"
+          src="https://www.paypal.com/donate/?hosted_button_id=ERME976A9HC48"
+        >
           Donate with Paypal
         </button>
       </div>

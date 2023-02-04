@@ -18,7 +18,7 @@ export const CallToAction = () => {
         <li className="m-[2px] h-10 w-1/3 bg-misty text-black">
           <a
             href="https://github.com/orgs/dev-island/"
-            className="h-full w-full  flex justify-center align-middle items-center"
+            className="h-full w-full flex justify-center align-middle items-center"
           >
             <i className="bg-coolgray border-misty rounded-full">
               <FaGithub />
@@ -43,12 +43,12 @@ export const CallToAction = () => {
         >
           <li className="text-coolgray">Apply</li>
         </Link>
-        <Link
-          to="/donate"
+        <a
+          href="https://www.paypal.com/donate/?hosted_button_id=ERME976A9HC48"
           className="w-full h-10 m-[2px] bg-misty text-coolgray flex justify-center align-middle items-center"
         >
           <li className=" text-coolgray">Donate</li>
-        </Link>
+        </a>
       </ul>
     </div>
   );

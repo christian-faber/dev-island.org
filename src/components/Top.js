@@ -4,11 +4,11 @@ export const Top = () => {
   // const logo = "</>";
   return (
     <>
-      <div className="flex justify-start ml-4 h-[10%]">
-        <div className="w-2/3 flex items-center align-center justify-center lg:hidden">
+      <div className="flex justify-start h-[10%]">
+        <div className="flex items-center align-center justify-start lg:hidden px-[25%] w-full">
           <img
             src="/assets/logo/Dev-Island_SeasideLogo.svg"
-            className="z-50 h-3/4"
+            className="z-50"
             alt="logo"
           ></img>
         </div>
