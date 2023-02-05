@@ -17,7 +17,7 @@
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_20.jpg",
+      "image": "/assets/Travis.jpg",
       "statement": ""
     },
     {
@@ -27,7 +27,7 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_01.jpg",
+      "image": "/assets/Sharece.jpg",
       "statement": ""
     },
     {
@@ -37,11 +37,41 @@
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_18.jpg",
+      "image": "/assets/Christian.jpg",
       "statement": "I've been having a lot of fun with everything! I feel accomplished whenever I get a component to work or finish a project! "
     }
   ],
   "team": [
+    {
+      "name": "Rich Uhl",
+      "position": "President",
+      "background": "Rich Uhl is an experienced technology executive passionate about building—teams, and solutions. Rich is the Founder and CTO of 1Strategy, Amazon Web Services (AWS) experts and implementation partners. Founded in July of 2015, Rich grew the 1Strategy to become an AWS Premier Partner (only 75 partners among 100,000+). In October of 2019, Rich sold 1Strategy to TEKsystems Global Services, a global IT services company. Rich will focus on business development and partnerships.",
+      "linkedin": "https://www.linkedin.com/in/richuhl/",
+      "github": "",
+      "otherlink": "",
+      "image": "/assets/Rich.jpg",
+      "statement": ""
+    },
+    {
+      "name": "AJ Webb",
+      "position": "Lead Instructor",
+      "background": "AJ Webb is a software engineer with over 10 years of experience in the industry. He is currently working as a principal software engineer at Provenance Blockchain Foundation. He has also worked as a principal software engineer at Figure and as an advisory board member. He has previously served as a manager of frontend engineering at SoFi, a tutor in web development at Practicum by Yandex, a mentor and curriculum creator at Thinkful, a frontend manager and architect at iCentris, a frontend team lead at O.C. Tanner, a senior software engineer at Vivint, a lead JavaScript developer at Slipstone Inc, and a UI developer at ACTIVE Network. He has also been a co-founder of several startups such as Payba.cc, Wehl Media, and Dev-Island. He has expertise in web development and blockchain technology. He holds a Bachelor of Science degree in Digital Media from Utah Valley University. He is also a volunteer at CODE CLUB WORLD LTD and an Hour of Code volunteer at Code.org. AJ is a proud Hawaii resident and lives and works from the island of Kaua'i. AJ will serve on the Board of Directors and will lead the technical education of the students.",
+      "linkedin": "https://www.linkedin.com/in/aj-webb/",
+      "github": "https://github.com/webbushka",
+      "otherlink": "",
+      "image": "/assets/AJ.jpg",
+      "statement": ""
+    },
+    {
+      "name": "Danielle Steed",
+      "position": "Director of Operations",
+      "background": "Danielle Steed received a bachelor’s degree in education. She has experience at the university level as a Graduate Program Manager. In addition to her passion for continued education, she has worked with several technology startups, including 1Strategy, a Premier AWS Consulting company. Over the last 5 years she has grown her knowledge and love for technology. Danielle will focus on business development.",
+      "linkedin": "https://www.linkedin.com/in/danielle-steed-utah/",
+      "github:": "",
+      "otherlink": "",
+      "image": "/assets/Danielle.jpg",
+      "statement": ""
+    },
     {
       "name": "Kamalani",
       "position": "Program Manager",
@@ -60,22 +90,12 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_01.jpg",
+      "image": "/assets/Sharece.jpg",
       "statement": ""
     },
 
     {
-      "name": "Ay Jay",
-      "position": "Lead Instructor",
-      "background": "AJ Webb is a software engineer with over 10 years of experience in the industry. He is currently working as a principal software engineer at Provenance Blockchain Foundation. He has also worked as a principal software engineer at Figure and as an advisory board member. He has previously served as a manager of frontend engineering at SoFi, a tutor in web development at Practicum by Yandex, a mentor and curriculum creator at Thinkful, a frontend manager and architect at iCentris, a frontend team lead at O.C. Tanner, a senior software engineer at Vivint, a lead JavaScript developer at Slipstone Inc, and a UI developer at ACTIVE Network. He has also been a co-founder of several startups such as Payba.cc, Wehl Media, and Dev-Island. He has expertise in web development and blockchain technology. He holds a Bachelor of Science degree in Digital Media from Utah Valley University. He is also a volunteer at CODE CLUB WORLD LTD and an Hour of Code volunteer at Code.org. AJ is a proud Hawaii resident and lives and works from the island of Kaua'i. AJ will serve on the Board of Directors and will lead the technical education of the students.",
-      "linkedin": "https://www.linkedin.com/in/aj-webb/",
-      "github": "https://github.com/webbushka",
-      "otherlink": "",
-      "image": "/assets/DevIslandSchool_12.jpg",
-      "statement": ""
-    },
-    {
-      "name": "Natalia",
+      "name": "Natalia Alvarez",
       "position": "Business Operations & Marketing Manager",
       "background": "Natalia Alvarez was born & raised on the beautiful island of Kauaʻi. Her experience in digital marketing, social media, video content creation, and business presents an opportunity to add value and change lives in her hometown and community. New to the Dev-Island team, she holds an immense passion for helping others grow, activate their potential, and best selves.",
       "linkedin": "https://www.linkedin.com/in/natalia-alvarez-340a5525b/",
@@ -84,26 +104,7 @@
       "image": "/assets/Natalia.jpg",
       "statement": ""
     },
-    {
-      "name": "Richyboi",
-      "position": "President",
-      "background": "Rich Uhl is an experienced technology executive passionate about building—teams, and solutions. Rich is the Founder and CTO of 1Strategy, Amazon Web Services (AWS) experts and implementation partners. Founded in July of 2015, Rich grew the 1Strategy to become an AWS Premier Partner (only 75 partners among 100,000+). In October of 2019, Rich sold 1Strategy to TEKsystems Global Services, a global IT services company. Rich will focus on business development and partnerships.",
-      "linkedin": "https://www.linkedin.com/in/richuhl/",
-      "github": "",
-      "otherlink": "",
-      "image": "/assets/DevIslandSchool_04.jpg",
-      "statement": ""
-    },
-    {
-      "name": "Steefe",
-      "position": "Director of Operations",
-      "background": "Danielle Steed received a bachelor’s degree in education. She has experience at the university level as a Graduate Program Manager. In addition to her passion for continued education, she has worked with several technology startups, including 1Strategy, a Premier AWS Consulting company. Over the last 5 years she has grown her knowledge and love for technology. Danielle will focus on business development.",
-      "linkedin": "https://www.linkedin.com/in/danielle-steed-utah/",
-      "github:": "",
-      "otherlink": "",
-      "image": "",
-      "statement": ""
-    },
+
     {
       "name": "Jason Bryant",
       "position": "",
@@ -111,7 +112,7 @@
       "linkedin": "https://www.linkedin.com/in/jason-bryant-60b33b20a/",
       "github:": "",
       "otherlink": "",
-      "image": "",
+      "image": "/assets/Jason.jpg",
       "statement": ""
     },
     {
@@ -121,7 +122,7 @@
       "linkedin": "",
       "github:": "",
       "otherlink": "",
-      "image": "",
+      "image": "/assets/Keoni.jpg",
       "statement": ""
     },
     {
@@ -131,7 +132,7 @@
       "linkedin": "https://www.linkedin.com/in/ddooley/",
       "github:": "",
       "otherlink": "",
-      "image": "",
+      "image": "/assets/David.jpg",
       "statement": ""
     }
   ],
@@ -215,7 +216,7 @@
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_25.jpg",
+      "image": "/assets/Kama.jpg",
       "statement": ""
     },
     {
@@ -225,7 +226,7 @@
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_20.jpg",
+      "image": "/assets/Travis.jpg",
       "statement": ""
     },
     {
@@ -235,7 +236,7 @@
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
-      "image": "/assets/DevIslandSchool_01.jpg",
+      "image": "/assets/Sharece.jpg",
       "statement": ""
     },
     {
@@ -245,7 +246,7 @@
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
       "otherlink": "https://communitypursuit.com",
-      "image": "/assets/DevIslandSchool_18.jpg",
+      "image": "/assets/Christian.jpg",
       "statement": ""
     }
   ]

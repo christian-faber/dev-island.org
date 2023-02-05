@@ -14,7 +14,7 @@ import { MobileButton } from "./components/MobileButton";
 function App() {
   return (
     <div className=" bg-coolgray">
-      <div className="">
+      <div className="bg-coolgray">
         <MobileButton />
         <Top />
         <CallToAction />

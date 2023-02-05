@@ -1,8 +1,8 @@
 export const Team = ({ setOpen, setCharacter, team }) => {
   return (
-    <div>
-      <h2 className="flex justify-start text-xl pl-4">Team</h2>
-      <div className="flex flex-wrap justify-center space-x-4 my-4">
+    <div className="bg-misty">
+      <h2 className="flex justify-start text-3xl pl-4">Team</h2>
+      <div className="flex flex-wrap justify-around">
         {team.map((member) => (
           <div
             key={member.name}
@@ -12,9 +12,9 @@ export const Team = ({ setOpen, setCharacter, team }) => {
             <img
               src={`${member.image}`}
               alt={`${member.name}`}
-              className="border rounded-full h-20 w-20 object-contain"
+              className="border rounded-full h-auto w-full object-cover"
             ></img>
-            <h1>{member.name}</h1>
+            <h1 className="mt-4">{member.name}</h1>
           </div>
         ))}
         {/* // <div

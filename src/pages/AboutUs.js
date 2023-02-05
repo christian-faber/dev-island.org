@@ -14,14 +14,23 @@ export const AboutUs = () => {
         <AboutModal character={character} setOpen={setOpen} />
       )}
       <div>
-        <div>
-          <h2>Contact us</h2>
-          <p>808-720-7600</p>
+        <div className="bg-seaside p-4">
+          <div className="border-2 border-og text-coolgray p-4">
+            <h2 className="">Contact us</h2>
+            <div>
+              <ion-icon name="call-outline"></ion-icon>
+              <p>808-720-7600</p>
+            </div>
+            <div>
+              <ion-icon name="call-outline"></ion-icon>
+              <p>info@dev-island.org</p>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-row p-20">
+        <div className="flex flex-row py-12 bg-og">
           <div>
-            <h2>Background</h2>
-            <p>This is where we can say background info</p>
+            <h2 className="text-3xl font-semibold p-2">Background</h2>
+            <p className="text-lg">This is where we can say background info</p>
           </div>
           <img
             className="border"

@@ -1,11 +1,5 @@
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-import { HiPlus } from "react-icons/hi";
+import { useState } from "react";
+
 const FAQS = [
   {
     question: <>What is Dev-Island's Mission?</>,
@@ -203,35 +197,40 @@ const FAQS = [
 ];
 
 export const Faq = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <section>
-        <div className="border">
-          <h1>Frequently Asked Questions</h1>
-          <Accordion allowZeroExpanded>
-            {FAQS.map(({ question, answer }) => (
-              <div className="border-2 border-seaside m-5">
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      <div className="relative flex flex-row align-middle items-center">
-                        <h1 className="text-2xl">{question}</h1>
-
-                        <i className="absolute right-2">
-                          <HiPlus />
-                        </i>
-                      </div>
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>{answer}</p>
-                  </AccordionItemPanel>
-                </AccordionItem>
+      <div className="flex flex-col justify-center align-middle items-center">
+        {FAQS.map(({ question, answer }) => (
+          <div className="border-2 border-seaside p-5 m-4 w-3/4">
+            {!isOpen && (
+              <div
+                onClick={() => setOpen(true)}
+                className="flex flex-row align-middle items-center justify-between w-full"
+              >
+                <h1 className="text-2xl">{question}</h1>
+                <h1 classname="text-2xl">+</h1>
               </div>
-            ))}
-          </Accordion>
-        </div>
-      </section>
+            )}
+            {isOpen && (
+              <>
+                <div
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="flex flex-row align-middle items-center justify-between w-full"
+                >
+                  <h1 className="text-2xl">{question}</h1>
+                  <h1 className="text-2xl">-</h1>
+                </div>
+                <div>
+                  <p>{answer}</p>
+                </div>
+              </>
+            )}
+          </div>
+        ))}
+      </div>
     </>
   );
 };

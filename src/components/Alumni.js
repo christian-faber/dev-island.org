@@ -7,22 +7,22 @@ export const Alumni = ({
 }) => {
   return (
     <div>
-      <h2 className="flex align-center items-center justify-center text-white text-xl font-sans bg-gradient-to-b bg-misty w-full">
+      <h2 className="flex align-center items-center justify-center text-coolgray text-2xl font-semibold bg-gradient-to-b bg-misty w-full">
         Alumni
       </h2>
-      <div className="flex flex-wrap justify-center space-x-4 my-4">
+      <div className="flex flex-wrap justify-around">
         {alumni.map((alum) => (
           <div
             key={alum.name}
             onClick={() => (setOpen(true), setCharacter(`${alum.name}`))}
-            className="border flex flex-col items-center"
+            className="flex flex-col items-center m-2 w-[20%]"
           >
             <img
               src={`${alum.image}`}
               alt={`${alum.name}`}
-              className="border rounded-full h-20 w-20 object-contain"
+              className="border rounded-full h-auto w-full object-cover"
             ></img>
-            <h1>{alum.name}</h1>
+            <h1 className="mt-4">{alum.name}</h1>
           </div>
         ))}
         {/* <div

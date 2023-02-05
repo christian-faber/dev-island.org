@@ -9,22 +9,25 @@ export const Cohort = ({
 
   return (
     <div>
-      <h2 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-misty text-white w-full">
+      <h2
+        className="flex align-center items-center justify-center
+       text-2xl font-semibold bg-gradient-to-b bg-misty text-coolgray w-full"
+      >
         Cohort
       </h2>
-      <div className="flex flex-wrap justify-center space-x-4 my-4">
+      <div className="flex flex-wrap justify-around">
         {students.map((student) => (
           <div
             key={student.name}
             onClick={() => (setOpen(true), setCharacter(student))}
-            className="border flex flex-col items-center"
+            className="flex flex-col items-center m-2 w-[20%]"
           >
             <img
               src={`${student.image}`}
               alt={`${student.name}`}
-              className="border rounded-full h-20 w-20 object-contain"
+              className="border rounded-full h-auto w-full object-cover"
             ></img>
-            <h1>{student.name}</h1>
+            <h1 className="mt-4">{student.name}</h1>
           </div>
         ))}
 
