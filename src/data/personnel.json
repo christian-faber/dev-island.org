@@ -1,7 +1,7 @@
 {
   "students": [
     {
-      "name": "Kamalani",
+      "name": "Kamalani Brun",
       "position": "Program Manager",
       "background": "Kamalani Brun is a writer, marketing manager and student/graduate of Dev-Island's coding bootcamp. Kamalani has experience writing website copy, novels, and educational content for curriculums. Kamalani graduated from Western Washington University with a bachelor's degree in Environmental Studies with minors in Geography and Disaster Risk Reduction.",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
@@ -11,7 +11,7 @@
       "statement": "As a local creative, I feel incredibly lucky to have been afforded the opportunity to add this skillset to my repertoire. While writing is my passion, I value all forms of storytelling and, more than anything, the ability to fulfill a need in my community."
     },
     {
-      "name": "Travis",
+      "name": "Travis Williams",
       "position": "",
       "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
@@ -21,7 +21,7 @@
       "statement": ""
     },
     {
-      "name": "Sharece",
+      "name": "Sharece Silva",
       "position": "Student Intern",
       "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
@@ -31,7 +31,7 @@
       "statement": ""
     },
     {
-      "name": "Christian",
+      "name": "Christian Faber",
       "position": "",
       "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
@@ -73,7 +73,7 @@
       "statement": ""
     },
     {
-      "name": "Kamalani",
+      "name": "Kamalani Brun",
       "position": "Program Manager",
       "background": "Kamalani Brun is a writer, marketing manager and student/graduate of Dev-Island's coding bootcamp. Kamalani has experience writing website copy, novels, and educational content for curriculums. Kamalani graduated from Western Washington University with a bachelor's degree in Environmental Studies with minors in Geography and Disaster Risk Reduction.",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
@@ -84,7 +84,7 @@
     },
 
     {
-      "name": "Sharece",
+      "name": "Sharece Silva",
       "position": "Student Intern",
       "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
@@ -210,7 +210,7 @@
   ],
   "alumni": [
     {
-      "name": "Kamalani",
+      "name": "Kamalani Brun",
       "position": "Program Manager",
       "background": "",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
@@ -220,7 +220,7 @@
       "statement": ""
     },
     {
-      "name": "Travis",
+      "name": "Travis Williams",
       "position": "",
       "background": "",
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
@@ -230,7 +230,7 @@
       "statement": ""
     },
     {
-      "name": "Sharece",
+      "name": "Sharece Silva",
       "position": "Student Intern",
       "background": "",
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
@@ -240,7 +240,7 @@
       "statement": ""
     },
     {
-      "name": "Christian",
+      "name": "Christian Faber",
       "position": "",
       "background": "",
       "linkedin": "https://www.linkedin.com/in/christianfaber/",

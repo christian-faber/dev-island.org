@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const CallToAction = () => {
   return (
-    <div className="flex flex-col fixed w-32 m-4 z-50 right-2 bottom-4 rounded-xl">
+    <div className="flex flex-col fixed w-32 m-4 z-50 right-2 bottom-4 rounded-xl bg-coolgray">
       <ul className="w-full mr-[3px] flex [&>*]:rounded-lg [&>*]:shadow-lg">
         <li className="m-[2px] h-10 w-1/3 bg-og text-black ">
           <a

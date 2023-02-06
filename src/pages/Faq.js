@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { Footer } from "../components/Footer";
+import { FAQComponent } from "./FAQComponent";
 
 const FAQS = [
   {
+    number: 1,
     question: <>What is Dev-Island's Mission?</>,
     answer: (
       <>
@@ -12,20 +14,24 @@ const FAQS = [
     ),
   },
   {
+    number: 2,
     question: <>How long is the course?</>,
     answer: <>The course will be 9 months part time.</>,
   },
   {
+    number: 3,
     question: <>What equipment will I need?</>,
     answer: (
       <>At this time computers have been donated for our students to use.</>
     ),
   },
   {
+    number: 4,
     question: <>What days will the class be held?</>,
     answer: <>Tuesday and Thursday 6-9 PM HST.</>,
   },
   {
+    number: 5,
     question: <>What are the prerequisites for the course(s)?</>,
     answer: (
       <>
@@ -38,6 +44,7 @@ const FAQS = [
     ),
   },
   {
+    number: 6,
     question: <>What will I learn?</>,
     answer: (
       <>
@@ -56,6 +63,7 @@ const FAQS = [
   },
 
   {
+    number: 7,
     question: <>What jobs will I qualify for?</>,
     answer: (
       <>
@@ -66,6 +74,7 @@ const FAQS = [
     ),
   },
   {
+    number: 8,
     question: <>Where will classes be held?</>,
     answer: (
       <>
@@ -79,6 +88,7 @@ const FAQS = [
     ),
   },
   {
+    number: 9,
     question: <>How much is tuition?</>,
     answer: (
       <>
@@ -89,6 +99,7 @@ const FAQS = [
     ),
   },
   {
+    number: 10,
     question: <>What is a cohort?</>,
     answer: (
       <>
@@ -99,10 +110,12 @@ const FAQS = [
     ),
   },
   {
+    number: 11,
     question: <>Is there any age limit?</>,
     answer: <>We welcome any age of adult learner.</>,
   },
   {
+    number: 12,
     question: <>How long does the course last?</>,
     answer: (
       <>
@@ -113,6 +126,7 @@ const FAQS = [
     ),
   },
   {
+    number: 13,
     question: <>How does Dev-island support the native Hawaiian culture?</>,
     answer: (
       <>
@@ -123,6 +137,7 @@ const FAQS = [
     ),
   },
   {
+    number: 14,
     question: <>What makes your program unique?</>,
     answer: (
       <>
@@ -143,6 +158,7 @@ const FAQS = [
     ),
   },
   {
+    number: 15,
     question: <>How can I sponsor a student?</>,
     answer: (
       <>
@@ -153,6 +169,7 @@ const FAQS = [
     ),
   },
   {
+    number: 16,
     question: <>How is your program funded?</>,
     answer: (
       <>
@@ -164,6 +181,7 @@ const FAQS = [
     ),
   },
   {
+    number: 17,
     question: <>How can I volunteer?</>,
     answer: (
       <>
@@ -173,6 +191,7 @@ const FAQS = [
     ),
   },
   {
+    number: 18,
     question: <>What does it take to be a mentor?</>,
     answer: (
       <>
@@ -197,40 +216,21 @@ const FAQS = [
 ];
 
 export const Faq = () => {
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <div className="flex flex-col justify-center align-middle items-center">
-        {FAQS.map(({ question, answer }) => (
-          <div className="border-2 border-seaside p-5 m-4 w-3/4">
-            {!isOpen && (
-              <div
-                onClick={() => setOpen(true)}
-                className="flex flex-row align-middle items-center justify-between w-full"
-              >
-                <h1 className="text-2xl">{question}</h1>
-                <h1 classname="text-2xl">+</h1>
-              </div>
-            )}
-            {isOpen && (
-              <>
-                <div
-                  onClick={() => {
-                    setOpen(false);
-                  }}
-                  className="flex flex-row align-middle items-center justify-between w-full"
-                >
-                  <h1 className="text-2xl">{question}</h1>
-                  <h1 className="text-2xl">-</h1>
-                </div>
-                <div>
-                  <p>{answer}</p>
-                </div>
-              </>
-            )}
-          </div>
+      <div className="flex flex-col justify-center align-middle items-center bg-misty">
+        <h1 className="py-4 text-3xl text-center text-coolgray font-bold border-b-2 drop-shadow-xl">
+          Frequently Asked Questions
+        </h1>
+        {FAQS.map((faq) => (
+          <FAQComponent
+            key={faq.number}
+            question={faq.question}
+            answer={faq.answer}
+          />
         ))}
       </div>
+      <Footer />
     </>
   );
 };

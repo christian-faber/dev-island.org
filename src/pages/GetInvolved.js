@@ -1,52 +1,135 @@
+import { Footer } from "../components/Footer";
+import { FaMeetup, FaDiscord } from "react-icons/fa";
+import { ChristianTestimonial } from "../components/testimonials/ChristianTestimonial";
 export const GetInvolved = () => {
   return (
-    <div className="flex align-middle flex-col justify-center items-center">
-      <div>
-        <h1 className="flex align-center items-center justify-center text-xl font-sans bg-gradient-to-b bg-blue-300 w-full">
-          Get Involved
-        </h1>
-        <p>
-          There are many ways that members of our community connect and
-          collaborate.
-        </p>
-        <div className="mt-4 border w-11/12">
-          <h2>Mentors</h2>
-          <p>
-            Our students have been fortunate to learn from many mentors from
-            Kauaʻi
-          </p>
-        </div>
-        <div className="mt-4 border w-11/12">
-          <h2>Community Organizations</h2>
-          <p>
-            We partner with all kinds of organizations in the community to
-            pursue our mission and impact.
-          </p>
-        </div>
-        <div className="mt-4 border w-11/12">
-          <h2>Online Community</h2>
-          <p>
-            We host online channels to bring people together over technology as
-            an industry or a hobby!
-          </p>
-          <a href="/">Our Meetup Link</a>
-          <a href="/">Our Discord Link</a>
-        </div>
-        <div className="mt-4 border w-11/12">
-          <h2>Donating</h2>
-          <p>
-            Directly giving contributes to the careers and opportunities of
-            potential students. While there are many other ways to contribute,
-            this is a great way to show direct support for those around you
-            aiming for better outcomes for themselves and their families. You're
-            not just "teaching people to fish", you're also "providing them a
-            pole".
-          </p>
-          <button className="border-2 p-4 m-2 shadow bg-purple-300 text-white">
-            Donate
-          </button>
+    <div>
+      <div className="flex align-middle flex-col justify-center items-center">
+        <div>
+          <div className="bg-seaside">
+            <h1
+              className="p-4 text-coolgray flex align-center items-center
+             justify-center text-3xl font-sans bg-gradient-to-b w-full"
+            >
+              How can you get involved?
+            </h1>
+            <p className="text-coolgray p-4 text-xl">
+              There are many ways that members of our community collaborate.
+              Find the best ways to contribute and connect!
+            </p>
+            <a href="mailto:info@dev-island.org">
+              <button className="text-white font-semibold m-4 p-4 bg-og rounded-xl shadow-lg hover:underline hover:scale-120 transform translate">
+                Reach out to info@dev-island.org
+              </button>
+            </a>
+          </div>
+          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl  bg-misty">
+            <div className="border-og border m-2 p-4 rounded-xl">
+              <h2 className="text-2xl p-4 drop-shadow-lg text-coolgray">
+                Mentors
+              </h2>
+              <ul className="list-disc pl-4 [&>*]:py-2 text-coolgray">
+                <li>
+                  <p className="text-coolgray text-lg">
+                    Student and mentors connect online and in person
+                  </p>
+                </li>
+                <li>
+                  <p className="text-coolgray text-lg">
+                    Your expertise can empower students on their projects
+                  </p>
+                </li>
+                <li>
+                  <p className="text-coolgray text-lg">
+                    Share stories (and memes)
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl  bg-coolgray">
+            <div className="border-og border m-2 p-4 rounded-xl">
+              <h2 className="text-2xl p-4 drop-shadow-lg">
+                Community Organizations
+              </h2>
+              <p className=" text-lg">
+                Dev-Island partners with organizations in the community to
+                pursue our mission and impact.
+              </p>
+              <p className="mt-4 text-lg">How can Dev-Island help you?</p>
+            </div>
+          </div>
+          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-og">
+            <div className="border-seaside border m-2 p-4 rounded-xl">
+              <h2 className="text-2xl p-4 drop-shadow-lg text-coolgray">
+                Online Community
+              </h2>
+              <p className="text-coolgray text-lg">
+                Dev-Island hosts online channels to bring people together and to
+                discuss technology!
+              </p>
+              <div className="m-4 flex justify-center space-x-12">
+                <a href="/" className="">
+                  <button className="bg-misty shadow-lg p-2 text-3xl text-center border-coolgray border rounded-xl text-coolgray flex justify-center">
+                    <FaMeetup />
+                  </button>
+                </a>
+                <a href="/" className="">
+                  <button className="bg-misty shadow-lg p-2 text-3xl text-center border-coolgray border rounded-xl text-coolgray flex justify-center">
+                    <FaDiscord />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-seaside">
+            <div className="border-og border m-2 p-4 rounded-xl">
+              <h2 className="text-2xl px-4 pt-4 drop-shadow-lg text-coolgray">
+                Donating
+              </h2>
+              <ul className="list-disc pl-4 [&>*]:py-2 my-4 text-coolgray">
+                <li>
+                  <p className="text-coolgray text-lg">
+                    Directly giving contributes to the careers and opportunities
+                    of potential students.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-coolgray text-lg">
+                    You're not just "teaching people to fish", you're also
+                    "providing them a pole".
+                  </p>
+                </li>
+              </ul>
+              <div className="flex lg:flex-row flex-col">
+                <div className="rounded-full w-3/4 object-cover border-4 border-coolgray">
+                  <img
+                    className="rounded-full border-og border-4"
+                    src="/assets/DevIslandSchool_40.jpg"
+                    alt="kama"
+                  ></img>
+                </div>
+                <p className="pt-4 text-coolgray text-lg">
+                  "The time and effort required to take on the challenge of the
+                  bootcamp were well worth it!
+                </p>
+                <p className="pb-4 pt-4 text-coolgray text-lg">
+                  A scholarship made it possible.
+                </p>
+                <p className="pb-4 pt-4 text-coolgray text-lg">
+                  Now I have valuable skills to level up my future!"
+                </p>
+              </div>
+              <div className="flex justify-center">
+                <button className="text-white font-semibold m-4 p-4 bg-og rounded-xl shadow-lg hover:underline hover:scale-120 transform translate justify-center">
+                  Donate
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

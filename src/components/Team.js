@@ -1,20 +1,22 @@
 export const Team = ({ setOpen, setCharacter, team }) => {
   return (
     <div className="bg-misty">
-      <h2 className="flex justify-start text-3xl pl-4">Team</h2>
+      <h2 className="flex justify-start text-3xl pl-12 text-coolgray py-6">
+        The Team
+      </h2>
       <div className="flex flex-wrap justify-around">
         {team.map((member) => (
           <div
             key={member.name}
             onClick={() => (setOpen(true), setCharacter(member))}
-            className="border flex flex-col items-center"
+            className="p-2 flex flex-col items-center w-1/3"
           >
             <img
               src={`${member.image}`}
               alt={`${member.name}`}
-              className="border rounded-full h-auto w-full object-cover"
+              className="border-4 rounded-full h-3/4 w-full object-cover shadow-lg"
             ></img>
-            <h1 className="mt-4">{member.name}</h1>
+            <h1 className="mt-4 text-coolgray">{member.name}</h1>
           </div>
         ))}
         {/* // <div

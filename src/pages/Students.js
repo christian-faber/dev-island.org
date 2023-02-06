@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import { Alumni } from "../components/Alumni";
 import personnel from "../data/personnel.json";
 import { Footer } from "../components/Footer";
+
 export const Students = () => {
   const [modalOpen, setOpen] = useState(false);
-
   const [character, setCharacter] = useState("");
   const [openOverview, setOverview] = useState(false);
   const [openCurriculum, setCurriculum] = useState(false);
@@ -22,13 +22,13 @@ export const Students = () => {
         )}
         <div
           className="flex align-center items-center justify-center
-          bg-gradient-to-b w-full px-[5%] py-5 hover:scale-125 transition transform"
+          bg-gradient-to-b w-full px-[5%] py-5 "
         >
-          <Link to="/apply" className="">
-            <button className="border-2 rounded-xl p-4 shadow-xl m-2 bg-seaside text-coolgray text-2xl">
+          <button className="border-2 rounded-xl p-4 shadow-xl m-2 bg-seaside text-coolgray text-2xl hover:scale-125 transition transform">
+            <Link to="/apply" className="">
               BECOME A STUDENT!
-            </button>
-          </Link>
+            </Link>
+          </button>
         </div>
         <div className="flex flex-col w-5/6 justify-center">
           <div className="mt-4 border-seaside bg-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
