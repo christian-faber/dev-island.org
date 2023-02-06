@@ -9,12 +9,12 @@ export const Team = ({ setOpen, setCharacter, team }) => {
           <div
             key={member.name}
             onClick={() => (setOpen(true), setCharacter(member))}
-            className="p-2 flex flex-col items-center w-1/3"
+            className="p-2 flex flex-col items-center w-1/3 lg:m-4 hover:scale-110 transition translate"
           >
             <img
               src={`${member.image}`}
               alt={`${member.name}`}
-              className="border-4 rounded-full h-3/4 w-full object-cover shadow-lg"
+              className="border-4 rounded-full h-3/4 lg:h-full w-full object-cover shadow-xl lg:shadow-2xl"
             ></img>
             <h1 className="mt-4 text-coolgray">{member.name}</h1>
           </div>

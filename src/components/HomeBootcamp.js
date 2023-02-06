@@ -27,7 +27,7 @@ export const HomeBootcamp = () => {
             <img
               src="/assets/DevIslandSchool_60.jpg"
               alt="bootcamp"
-              className="lg:absolute top-5 left-2 lg:top-10 lg:right-5 rounded-xl shadow-2xl"
+              className="lg:absolute top-5 left-2 lg:top-10 lg:right-5 lg:max-h-[350px] rounded-xl shadow-2xl"
             ></img>
           </div>
         </div>

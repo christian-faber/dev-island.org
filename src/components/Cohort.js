@@ -20,12 +20,12 @@ export const Cohort = ({
           <div
             key={student.name}
             onClick={() => (setOpen(true), setCharacter(student))}
-            className="flex flex-col items-center m-2 w-[20%]"
+            className="flex flex-col items-center p-2 w-1/2 lg:w-1/4"
           >
             <img
               src={`${student.image}`}
               alt={`${student.name}`}
-              className="border rounded-full h-auto w-full object-cover"
+              className="border-4 rounded-full h-3/4 lg:h-full w-full object-cover shadow-xl"
             ></img>
             <h1 className="mt-4">{student.name}</h1>
           </div>

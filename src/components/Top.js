@@ -8,7 +8,7 @@ export const Top = () => {
         <div className="flex items-center align-center justify-start lg:hidden px-[25%] w-full">
           <img
             src="/assets/logo/Dev-Island_SeasideLogo.svg"
-            className="z-50"
+            className="z-40"
             alt="logo"
           ></img>
         </div>
@@ -40,9 +40,11 @@ export const Top = () => {
               <Link to="/getinvolved">Get Involved</Link>
             </li>
           </ul>
-          <button className="absolute right-10 rounded-2xl bg-misty text-white px-5 py-2 shadow-xl text-lg">
-            Apply
-          </button>
+          <Link className="absolute right-10" to="/apply">
+            <button className="rounded-2xl bg-misty text-white px-5 py-2 shadow-xl text-lg">
+              Apply
+            </button>
+          </Link>
         </div>
       </div>
     </>

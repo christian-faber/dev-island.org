@@ -1,29 +1,29 @@
 import { Footer } from "../components/Footer";
 import { FaMeetup, FaDiscord } from "react-icons/fa";
-import { ChristianTestimonial } from "../components/testimonials/ChristianTestimonial";
+// import { ChristianTestimonial } from "../components/testimonials/ChristianTestimonial";
 export const GetInvolved = () => {
   return (
     <div>
       <div className="flex align-middle flex-col justify-center items-center">
-        <div>
-          <div className="bg-seaside">
-            <h1
-              className="p-4 text-coolgray flex align-center items-center
+        <div className="bg-seaside flex flex-col justify-center items-center w-full">
+          <h1
+            className="p-4 text-coolgray flex align-center items-center
              justify-center text-3xl font-sans bg-gradient-to-b w-full"
-            >
-              How can you get involved?
-            </h1>
-            <p className="text-coolgray p-4 text-xl">
-              There are many ways that members of our community collaborate.
-              Find the best ways to contribute and connect!
-            </p>
-            <a href="mailto:info@dev-island.org">
-              <button className="text-white font-semibold m-4 p-4 bg-og rounded-xl shadow-lg hover:underline hover:scale-120 transform translate">
-                Reach out to info@dev-island.org
-              </button>
-            </a>
-          </div>
-          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl  bg-misty">
+          >
+            How can you get involved?
+          </h1>
+          <p className="text-coolgray p-4 text-xl">
+            There are many ways that members of our community collaborate. Find
+            the best ways to contribute and connect!
+          </p>
+          <a href="mailto:info@dev-island.org">
+            <button className="lg:justify-center text-white font-semibold m-4 p-4 bg-og rounded-xl shadow-lg hover:underline hover:scale-120 transform translate">
+              Reach out to info@dev-island.org
+            </button>
+          </a>
+        </div>
+        <div className="flex flex-col justify-center items-middle align-middle w-full">
+          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-misty">
             <div className="border-og border m-2 p-4 rounded-xl">
               <h2 className="text-2xl p-4 drop-shadow-lg text-coolgray">
                 Mentors
@@ -47,7 +47,7 @@ export const GetInvolved = () => {
               </ul>
             </div>
           </div>
-          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl  bg-coolgray">
+          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-coolgray">
             <div className="border-og border m-2 p-4 rounded-xl">
               <h2 className="text-2xl p-4 drop-shadow-lg">
                 Community Organizations
@@ -101,24 +101,28 @@ export const GetInvolved = () => {
                   </p>
                 </li>
               </ul>
-              <div className="flex lg:flex-row flex-col">
-                <div className="rounded-full w-3/4 object-cover border-4 border-coolgray">
-                  <img
-                    className="rounded-full border-og border-4"
-                    src="/assets/DevIslandSchool_40.jpg"
-                    alt="kama"
-                  ></img>
+              <div className="flex flex-col">
+                <div className="lg:flex-row lg:flex">
+                  <div className="rounded-full w-3/4 lg:w-1/4 object-cover border-4 border-coolgray">
+                    <img
+                      className="rounded-full border-og border-4"
+                      src="/assets/DevIslandSchool_40.jpg"
+                      alt="happy student"
+                    ></img>
+                  </div>
+                  <div className="lg:p-12 lg:flex lg:flex-col lg:align-middle lg:justify-center">
+                    <p className="pt-4 text-coolgray text-lg">
+                      "The time and effort required to take on the challenge of
+                      the bootcamp were well worth it!
+                    </p>
+                    <p className="pb-4 pt-4 lg:pt-0 lg:pb-0 text-coolgray text-lg">
+                      A scholarship made it possible.
+                    </p>
+                    <p className="pb-4 pt-4 lg:pt-0 text-coolgray text-lg">
+                      Now I have valuable skills to level up my future!"
+                    </p>
+                  </div>
                 </div>
-                <p className="pt-4 text-coolgray text-lg">
-                  "The time and effort required to take on the challenge of the
-                  bootcamp were well worth it!
-                </p>
-                <p className="pb-4 pt-4 text-coolgray text-lg">
-                  A scholarship made it possible.
-                </p>
-                <p className="pb-4 pt-4 text-coolgray text-lg">
-                  Now I have valuable skills to level up my future!"
-                </p>
               </div>
               <div className="flex justify-center">
                 <button className="text-white font-semibold m-4 p-4 bg-og rounded-xl shadow-lg hover:underline hover:scale-120 transform translate justify-center">

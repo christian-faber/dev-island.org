@@ -14,13 +14,13 @@ export const Alumni = ({
         {alumni.map((alum) => (
           <div
             key={alum.name}
-            onClick={() => (setOpen(true), setCharacter(`${alum.name}`))}
-            className="flex flex-col items-center m-2 w-[20%]"
+            onClick={() => (setOpen(true), setCharacter(alum))}
+            className="flex flex-col items-center p-2 w-1/2 lg:w-1/4"
           >
             <img
               src={`${alum.image}`}
               alt={`${alum.name}`}
-              className="border rounded-full h-auto w-full object-cover"
+              className="border-4 rounded-full h-3/4 lg:h-full w-full object-cover shadow-xl"
             ></img>
             <h1 className="mt-4">{alum.name}</h1>
           </div>

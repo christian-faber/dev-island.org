@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 export const CallToAction = () => {
   return (
-    <div className="flex flex-col fixed w-32 m-4 z-50 right-2 bottom-4 rounded-xl bg-coolgray">
+    <div className="flex flex-col fixed w-32 m-4 z-30 right-2 bottom-4 rounded-xl bg-coolgray">
       <ul className="w-full mr-[3px] flex [&>*]:rounded-lg [&>*]:shadow-lg">
         <li className="m-[2px] h-10 w-1/3 bg-og text-black ">
           <a
             href="https://www.linkedin.com/company/hidev-island/"
             className="h-full w-full flex justify-center align-middle items-center"
           >
-            <i className=" border-og ">
+            <i className=" bg-coolgray rounded-full p-1 text-2xl">
               <FaLinkedin />
             </i>
           </a>
@@ -20,17 +20,17 @@ export const CallToAction = () => {
             href="https://github.com/orgs/dev-island/"
             className="h-full w-full flex justify-center align-middle items-center"
           >
-            <i className="bg-coolgray border-misty rounded-full">
+            <i className="bg-coolgray p-1 border-misty rounded-full text-2xl">
               <FaGithub />
             </i>
           </a>
         </li>
-        <li className="m-[2px] h-10 w-1/3 bg-og text-black">
+        <li className="m-[2px] h-10 w-1/3 bg-og text-white text-2xl">
           <a
             href="https://instagram.com/devislandkauai?igshid=YmMyMTA2M2Y="
             className="h-full w-full flex justify-center align-middle items-center"
           >
-            <i className=" rounded-md">
+            <i className=" rounded-full p-1 bg-black">
               <FaInstagram />
             </i>
           </a>

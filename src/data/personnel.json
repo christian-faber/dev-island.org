@@ -33,10 +33,10 @@
     {
       "name": "Christian Faber",
       "position": "",
-      "background": "lorem ipsum",
+      "background": "Christian grew up on the mainland, eventually going to college to study Economics and International Business at Drake University. After some time living abroad in Europe and South America, Christian secured a position on Kauaʻi working with data analytics and visualization. This led to Christian starting his own business, Community Pursuit, where he continues to work with information and data.",
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
-      "otherlink": "",
+      "otherlink": "https://communitypursuit.com",
       "image": "/assets/Christian.jpg",
       "statement": "I've been having a lot of fun with everything! I feel accomplished whenever I get a component to work or finish a project! "
     }
@@ -212,17 +212,17 @@
     {
       "name": "Kamalani Brun",
       "position": "Program Manager",
-      "background": "",
+      "background": "Kamalani Brun is a writer, marketing manager and student/graduate of Dev-Island's coding bootcamp. Kamalani has experience writing website copy, novels, and educational content for curriculums. Kamalani graduated from Western Washington University with a bachelor's degree in Environmental Studies with minors in Geography and Disaster Risk Reduction.",
       "linkedin": "https://www.linkedin.com/in/kamalanibrun/",
       "github": "https://github.com/KamalaniBrun",
       "otherlink": "",
       "image": "/assets/Kama.jpg",
-      "statement": ""
+      "statement": "As a local creative, I feel incredibly lucky to have been afforded the opportunity to add this skillset to my repertoire. While writing is my passion, I value all forms of storytelling and, more than anything, the ability to fulfill a need in my community."
     },
     {
       "name": "Travis Williams",
       "position": "",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/travis-williams-4328b115/",
       "github": "https://github.com/3triniti",
       "otherlink": "",
@@ -232,7 +232,7 @@
     {
       "name": "Sharece Silva",
       "position": "Student Intern",
-      "background": "",
+      "background": "lorem ipsum",
       "linkedin": "https://www.linkedin.com/in/sharecekauai/",
       "github": "https://github.com/sharece",
       "otherlink": "",
@@ -242,12 +242,12 @@
     {
       "name": "Christian Faber",
       "position": "",
-      "background": "",
+      "background": "Christian grew up on the mainland, eventually going to college to study Economics and International Business at Drake University. After some time living abroad in Europe and South America, Christian secured a position on Kauaʻi working with data analytics and visualization. This led to Christian starting his own business, Community Pursuit, where he continues to work with information and data.",
       "linkedin": "https://www.linkedin.com/in/christianfaber/",
       "github": "https://github.com/christian-faber",
       "otherlink": "https://communitypursuit.com",
       "image": "/assets/Christian.jpg",
-      "statement": ""
+      "statement": "I've been having a lot of fun with everything! I feel accomplished whenever I get a component to work or finish a project! "
     }
   ]
 }

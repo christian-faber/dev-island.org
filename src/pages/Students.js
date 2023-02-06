@@ -37,7 +37,9 @@ export const Students = () => {
                 onClick={() => setOverview(true)}
                 className="flex flex-row justify-between"
               >
-                <h1 className="text-3xl">Overview</h1>
+                <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px]">
+                  Overview
+                </h1>
                 <button className="text-3xl">+</button>
               </div>
             )}
@@ -47,7 +49,7 @@ export const Students = () => {
                   onClick={() => setOverview(false)}
                   className="flex flex-row justify-between "
                 >
-                  <h1 className="text-3xl border-b-2 border-coolgray">
+                  <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px] border-b-2 border-coolgray">
                     Overview
                   </h1>
                   <button className="text-3xl">-</button>
@@ -68,7 +70,9 @@ export const Students = () => {
                 onClick={() => setCurriculum(true)}
                 className="flex-row flex justify-between"
               >
-                <h1 className="text-3xl">Curriculum</h1>
+                <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px]">
+                  Curriculum
+                </h1>
                 <button className="text-3xl">+</button>
               </div>
             )}
@@ -78,7 +82,7 @@ export const Students = () => {
                   onClick={() => setCurriculum(false)}
                   className="flex-row flex justify-between"
                 >
-                  <h1 className="text-3xl border-b-2 border-coolgray">
+                  <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px] border-b-2 border-coolgray">
                     Curriculum
                   </h1>
                   <button className="text-3xl">-</button>
@@ -126,7 +130,9 @@ export const Students = () => {
                 onClick={() => setEnvironment(true)}
                 className="flex flex-row justify-between"
               >
-                <h1 className="text-3xl">Environment</h1>
+                <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px]">
+                  Environment
+                </h1>
                 <button className="text-3xl">+</button>
               </div>
             )}
@@ -136,7 +142,7 @@ export const Students = () => {
                   onClick={() => setEnvironment(false)}
                   className="flex flex-row justify-between"
                 >
-                  <h1 className="text-3xl border-b-2 border-coolgray">
+                  <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px] border-b-2 border-coolgray">
                     Environment
                   </h1>
                   <button className="text-3xl">-</button>
@@ -179,7 +185,9 @@ export const Students = () => {
                 onClick={() => setStudent(true)}
                 className="flex flex-row justify-between"
               >
-                <h1 className="text-3xl">Student Stories</h1>
+                <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px]">
+                  Student Stories
+                </h1>
                 <button className="text-3xl">+</button>
               </div>
             )}
@@ -189,7 +197,7 @@ export const Students = () => {
                   onClick={() => setStudent(false)}
                   className="flex flex-row justify-between"
                 >
-                  <h1 className="text-3xl border-b-2 border-coolgray">
+                  <h1 className="text-3xl lg:pl-24 lg:py-12 lg:text-[64px] border-b-2 border-coolgray">
                     Student Stories
                   </h1>
                   <button className="text-3xl">-</button>

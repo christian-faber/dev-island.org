@@ -11,7 +11,7 @@ export const MobileButton = () => {
     <>
       <div
         onClick={() => setOpen(!isOpen)}
-        className="fixed top-[2.5%] md:top-[4%] left-[2%] w-[20%] rounded-full flex justify-center 
+        className="fixed top-[2%] md:top-[4%] left-[2%] w-[20%] rounded-full flex justify-center 
         items-center border shadow-md transform transition hover:scale-125
          bg-coolgray lg:hidden z-50"
       >
@@ -35,7 +35,10 @@ export const MobileButton = () => {
         )}
       </div>
       {isOpen && (
-        <div>
+        <div
+          onClick={() => setOpen(false)}
+          className="absolute top-0 bottom-0 left-0 right-0 h-full w-full bg-coolgray bg-opacity-50 z-40"
+        >
           <MobileDropdown />
         </div>
       )}

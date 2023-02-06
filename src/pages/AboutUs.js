@@ -42,11 +42,14 @@ export const AboutUs = () => {
             <h2 className="text-3xl font-semibold pl-12 mb-4 text-coolgray drop-shadow-lg">
               Background
             </h2>
-            <img
-              className="border border-misty w-3/4 ml-10 drop-shadow-xl"
-              src="/assets/DevIslandSchool_52.jpg"
-              alt="I DON'T have"
-            ></img>
+            <div className=" mb-8 relative">
+              <div className="border-4 border-coolgray rounded-xl h-2/3 w-11/12 absolute m-4"></div>
+              <img
+                className="border border-misty w-11/12 m-2 rounded-lg drop-shadow-xl lg:max-w-[1200px] lg:ml-12"
+                src="/assets/DevIslandSchool_52.jpg"
+                alt="I DON'T have"
+              ></img>
+            </div>
             <p className="text-lg text-coolgray p-6">
               Dev-Island is a nonprofit organization, brought together to equip
               Kauaʻi workers with tools for the emerging tech industry. After
