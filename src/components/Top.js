@@ -4,7 +4,7 @@ export const Top = () => {
   // const logo = "</>";
   return (
     <>
-      <div className="flex justify-start h-[10%]">
+      <div className="flex justify-start h-[10%] md:h-[20%]">
         <div className="flex items-center align-center justify-start lg:hidden px-[25%] w-full">
           <img
             src="/assets/logo/Dev-Island_SeasideLogo.svg"

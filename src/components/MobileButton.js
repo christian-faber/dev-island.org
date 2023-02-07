@@ -11,7 +11,7 @@ export const MobileButton = () => {
     <>
       <div
         onClick={() => setOpen(!isOpen)}
-        className="fixed top-[2%] md:top-[4%] left-[2%] w-[20%] rounded-full flex justify-center 
+        className="fixed top-[2%]  left-[2%] w-[20%] rounded-full flex justify-center 
         items-center border shadow-md transform transition hover:scale-125
          bg-coolgray lg:hidden z-50"
       >
