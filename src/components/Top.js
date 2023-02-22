@@ -12,10 +12,10 @@ export const Top = () => {
             alt="logo"
           ></img>
         </div>
-        <div className="bg-coolgray flex-row items-center justify-between p-5 hidden lg:flex w-2/3">
+        <div className="bg-coolgray flex-row items-center justify-between  hidden lg:flex w-2/3">
           <Link
             to="/"
-            className="bg-coolgray border-misty w-40 h-20 rounded-full flex justify-center items-center border shadow-2xl transform transition hover:scale-125"
+            className="bg-coolgray  w-40 h-20 flex justify-center items-center border transform transition hover:opacity-75"
           >
             <img
               src="/assets/logo/Dev-Island_SeasideLogo.svg"

@@ -1,4 +1,4 @@
-import { Page } from "./Page";
+import { Home } from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import { AboutUs } from "./pages/AboutUs";
 import { Donate } from "./pages/Donate";
@@ -8,7 +8,7 @@ import { GetInvolved } from "./pages/GetInvolved";
 import { Apply } from "./pages/Apply";
 import { Top } from "./components/Top";
 import { Students } from "./pages/Students";
-import { CallToAction } from "./components/CallToAction";
+// import { CallToAction } from "./components/CallToAction";
 import { MobileButton } from "./components/MobileButton";
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
       <div className="bg-coolgray">
         <MobileButton />
         <Top />
-        <CallToAction />
+        {/* <CallToAction /> */}
         <Routes>
-          <Route path="/" element={<Page />} />
+          <Route path="/" element={<Home />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/project" element={<Project />} />
