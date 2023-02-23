@@ -5,7 +5,6 @@ import { AboutModal } from "../components/modals/AboutModal";
 import personnel from "../data/personnel.json";
 import { IoCallOutline } from "react-icons/io5";
 import { IoAtOutline } from "react-icons/io5";
-import { Footer } from "../components/Footer";
 export const AboutUs = () => {
   const [modalOpen, setOpen] = useState(false);
   const [character, setCharacter] = useState("");
@@ -84,14 +83,6 @@ export const AboutUs = () => {
         character={character}
         setCharacter={setCharacter}
       />
-      {/* <Partners
-        partners={personnel.partners}
-        modalOpen={modalOpen}
-        setOpen={setOpen}
-        character={character}
-        setCharacter={setCharacter}
-      /> */}
-      <Footer />
     </div>
   );
 };

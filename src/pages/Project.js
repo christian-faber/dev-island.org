@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Footer } from "../components/Footer";
 
 export const Project = () => {
   const [consult, setConsult] = useState(false);
@@ -38,7 +37,7 @@ export const Project = () => {
             Work with local developers to level up your business
           </h2>
         </div>
-        <h1 className="text-3xl m-4">Product List:</h1>
+        <h1 className="text-3xl m-4">Services:</h1>
         <div className="m-4 border w-11/12">
           <div className="m-6">
             <h2>In-House</h2>
@@ -70,7 +69,6 @@ export const Project = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

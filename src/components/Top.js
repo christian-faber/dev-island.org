@@ -1,29 +1,30 @@
 import { Link } from "react-router-dom";
+import { MobileButton } from "../components/MobileButton";
 
 export const Top = () => {
-  // const logo = "</>";
   return (
     <>
-      <div className="flex justify-start h-[10%] md:h-[20%]">
-        <div className="flex items-center align-center justify-start lg:hidden px-[25%] w-full">
+      <div className="h-[10%] md:h-[20%] bg-coolgray shadow-md">
+        <div className="flex items-center align-center justify-between lg:hidden w-full">
           <img
             src="/assets/logo/Dev-Island_SeasideLogo.svg"
-            className="z-40"
+            className="z-40 w-2/3 max-h-[100px]"
             alt="logo"
           ></img>
+          <MobileButton />
         </div>
-        <div className="bg-coolgray flex-row items-center justify-between  hidden lg:flex w-2/3">
+        <div className="bg-coolgray flex-row items-center justify-between  hidden lg:flex w-[85%]">
           <Link
             to="/"
-            className="bg-coolgray  w-40 h-20 flex justify-center items-center border transform transition hover:opacity-75"
+            className="bg-coolgray w-[45%] flex justify-center items-center border transform transition hover:opacity-75"
           >
             <img
               src="/assets/logo/Dev-Island_SeasideLogo.svg"
-              className="z-50"
+              className="z-50 w-full max-h-[90px]"
               alt="logo"
             ></img>
           </Link>
-          <ul className="flex items-center p-3 align-right justify-center [&>*]:p-5 [&>*]:text-black">
+          <ul className="flex items-center align-right justify-center [&>*]:p-5 [&>*]:text-black">
             <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline font-semibold text-lg">
               <Link to="/students">Students</Link>
             </li>

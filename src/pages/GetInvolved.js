@@ -1,6 +1,4 @@
-import { Footer } from "../components/Footer";
 import { FaMeetup, FaDiscord } from "react-icons/fa";
-// import { ChristianTestimonial } from "../components/testimonials/ChristianTestimonial";
 export const GetInvolved = () => {
   return (
     <div>
@@ -133,7 +131,6 @@ export const GetInvolved = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

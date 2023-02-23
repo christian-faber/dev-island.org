@@ -1,4 +1,3 @@
-import { Footer } from "../components/Footer";
 import { FAQComponent } from "./FAQComponent";
 
 const FAQS = [
@@ -230,7 +229,6 @@ export const Faq = () => {
           />
         ))}
       </div>
-      <Footer />
     </>
   );
 };

@@ -51,7 +51,6 @@ export const AboutModal = ({ setOpen, character }) => {
               </div>
               <div className="flex flex-col justify-end items-end h-1/6 mx-[10%]">
                 <div className="border-seaside border-2 rounded-lg p-2 shadow-xl">
-                  <h1 className="font-semibold text-xl underline">Links</h1>
                   <div className="space-x-4 flex-row flex">
                     <a href={character?.linkedin} className="text-2xl ">
                       <FaLinkedin />

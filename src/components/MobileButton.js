@@ -1,47 +1,22 @@
 import { useState } from "react";
 import { MobileDropdown } from "./MobileDropdown";
+import { Squash as Hamburger } from "hamburger-react";
 
 export const MobileButton = () => {
   const [isOpen, setOpen] = useState(false);
-  const openTag = "<";
-  const closeOpenTag = ">";
-  const closeTag = "/>";
-  const logo = "/assets/logo/Dev-Island_GradientMark.svg";
   return (
     <>
       <div
         onClick={() => setOpen(!isOpen)}
-        className="fixed top-[2%]  left-[2%] w-[20%] rounded-full flex justify-center 
-        items-center border shadow-md transform transition hover:scale-125
-         bg-coolgray lg:hidden z-50"
+        className="rounded-full flex justify-center 
+        items-center border border-seaside shadow-md
+         bg-coolgray lg:hidden z-50 mr-4"
       >
-        {isOpen === false && (
-          <>
-            <p>{openTag}</p>
-            <img className="w-1/2 lg:hidden" src={logo} alt="D"></img>
-            {/* <img className="w-1/2 lg:hidden" src={logo} alt="D"></img> */}
-
-            <p>{closeOpenTag}</p>
-          </>
-        )}
-        {isOpen === true && (
-          <>
-            <p>{openTag}</p>
-            <img className="w-1/2 lg:hidden" src={logo} alt="D"></img>
-            {/* <img className="w-1/2 lg:hidden" src={logo} alt="D"></img> */}
-
-            <p>{closeTag}</p>
-          </>
-        )}
-      </div>
-      {isOpen && (
-        <div
-          onClick={() => setOpen(false)}
-          className="absolute top-0 bottom-0 left-0 right-0 h-full w-full bg-coolgray bg-opacity-50 z-40"
-        >
-          <MobileDropdown />
+        <Hamburger toggle={(isOpen, setOpen)} rounded size={24} />
+        <div>
+          {isOpen && <MobileDropdown isOpen={isOpen} setOpen={setOpen} />}
         </div>
-      )}
+      </div>
     </>
   );
 };
