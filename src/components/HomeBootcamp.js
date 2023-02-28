@@ -1,4 +1,3 @@
-import YoutubeEmbed from "./YoutubeEmbed";
 import { Link } from "react-router-dom";
 
 export const HomeBootcamp = () => {
@@ -16,18 +15,18 @@ export const HomeBootcamp = () => {
               engaging and growing the next generation of software developers
               locally.
             </p>
-            <ul className="list-disc px-6 [&>*]:p-2 [&>*]:my-4 text-2xl lg:ml-16 ml-10">
+            <ul className="list-disc px-6 [&>*]:p-2 [&>*]:my-4 text-2xl lg:ml-20 ml-10">
               <li className="">9 month bootcamp</li>
-              <li className="lg:ml-4">Classes held in-person and online</li>
-              <li className="lg:ml-8">Scholarships available</li>
+              <li className="">Classes held in-person and online</li>
+              <li className="">Scholarships available</li>
             </ul>
           </div>
-          <div className="lg:relative lg:w-1/3 bg-coolgray border-8 lg:border-4 border-og rounded-xl">
+          <div className="lg:relative lg:w-1/3 bg-coolgray rounded-xl">
             {/* <YoutubeEmbed embedId="dQw4w9WgXcQ" /> */}
             <img
               src="/assets/DevIslandSchool_60.jpg"
               alt="bootcamp"
-              className="lg:absolute top-5 left-2 lg:top-10 lg:right-5 lg:max-h-[350px] rounded-xl shadow-2xl"
+              className="lg:max-h-[350px] rounded-xl shadow-2xl"
             ></img>
           </div>
         </div>

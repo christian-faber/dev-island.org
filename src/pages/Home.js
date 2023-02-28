@@ -1,6 +1,6 @@
 import { Banner } from "../components/Banner";
 import { HomeBootcamp } from "../components/HomeBootcamp";
-import { Tabs } from "../components/Tabs";
+import { HomeCards } from "../components/HomeCards";
 
 export const Home = () => {
   return (
@@ -12,7 +12,7 @@ export const Home = () => {
         <HomeBootcamp />
       </div>
 
-      <Tabs />
+      <HomeCards />
     </>
   );
 };

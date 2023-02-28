@@ -4,11 +4,10 @@ export const Banner = () => {
   return (
     <div className="bg-seaside pb-4">
       <div className="relative border-black mb-6 mr-0 md:mr-2 lg:mr-4 flex justify-end">
-        <div className="absolute left-32 top-16 border-og rounded-xl border-8 p-48 bg-seaside z-0 hidden lg:block h-1/2"></div>
         <img
           src="/assets/Banner.jpg"
           alt="Banner"
-          className="shadow-xl rounded-lg lg:w-3/4 mt-4 z-10"
+          className="shadow-xl rounded-lg lg:w-3/4 lg:mt-4 z-10"
         ></img>
       </div>
       <div

@@ -11,7 +11,7 @@ export const Cohort = ({
     <div>
       <h2
         className="flex align-center items-center justify-center
-       text-2xl font-semibold bg-gradient-to-b bg-misty text-coolgray w-full"
+       text-2xl font-semibold bg-gradient-to-b  text-coolgray w-full"
       >
         Cohort
       </h2>
