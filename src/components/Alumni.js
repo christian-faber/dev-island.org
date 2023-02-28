@@ -7,9 +7,9 @@ export const Alumni = ({
 }) => {
   return (
     <div>
-      <h2 className="flex align-center items-center justify-center text-coolgray text-2xl font-semibold bg-gradient-to-b  w-full">
+      {/* <h2 className="flex align-center items-center justify-center text-coolgray text-2xl font-semibold bg-gradient-to-b  w-full">
         Alumni
-      </h2>
+      </h2> */}
       <div className="flex flex-wrap justify-around">
         {alumni.map((alum) => (
           <div

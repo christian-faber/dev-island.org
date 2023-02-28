@@ -18,12 +18,12 @@ export const AboutUs = () => {
         <div className="bg-seaside p-4 flex justify-center">
           <div className="border-2 border-og text-coolgray p-4 rounded-lg">
             <h2 className="text-3xl font-semibold m-2">Contact Us</h2>
-            <div className="bg-coolgray p-1 rounded-3xl m-2">
+            {/* <div className="bg-coolgray p-1 rounded-3xl m-2">
               <div className="bg-coolgray border-seaside border-2 rounded-3xl flex p-3 justify-between">
                 <IoCallOutline className="text-black align-middle items-center text-3xl" />
                 <p className="text-black text-2xl">808-720-7600</p>
               </div>
-            </div>
+            </div> */}
             <a href="mailto:info@dev-island.org">
               <div className="bg-coolgray p-1 rounded-3xl m-2">
                 <div className="flex bg-coolgray border-seaside border-2 p-3 justify-between rounded-3xl">
