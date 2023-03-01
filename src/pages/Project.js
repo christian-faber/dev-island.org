@@ -5,54 +5,49 @@ export const Project = () => {
   return (
     <div>
       <div className="bg-seaside p-4">
-        <div className="m-4 border-2 border-og rounded-xl bg-coolgray">
+        <div className="m-4 rounded-xl text-coolgray flex flex-col items-center">
           <h1 className="text-3xl text-center font-semibold p-4">
-            Request a bid
+            Work with us
           </h1>
-          <p className="p-4 text-xl font-semibold">
-            Are you looking for a front-end web developer for your project?
-            Trying to update your web presence? Fill out the information below
-            and we will be in contact to figure out how we can best help!
-          </p>
+          {/*  */}
           <button
             onClick={() => setConsult(!consult)}
-            className="bg-seaside text-coolgray border rounded-2xl p-4 text-xl shadow-xl m-8"
+            className="bg-misty text-coolgray rounded-2xl p-4 text-xl shadow-xl m-2"
           >
-            Schedule an appointment
+            Schedule A Consultation
           </button>
         </div>
       </div>
-      <hr />
-
-      {consult && (
-        <p>
-          This feature is being developed now. This is where the embed code for
-          a calendly will go.
-        </p>
-      )}
-
-      <div className="bg-og text-coolgray flex flex-col">
-        <div className="border-seaside bg-misty border-2 rounded-xl m-4 shadow-xl">
-          <h2 className="text-xl m-4 underline ">
-            Work with local developers to level up your business
-          </h2>
+      <div className="flex flex-col justify-center items-center">
+        <div className="max-w-[1440px] m-8">
+          <h1 className="text-3xl m-4 ml-12">Services</h1>
+          <p className="p-8 text-xl font-semibold">
+            Are you looking for a front-end web developer for your project?
+            Trying to update your web presence?
+          </p>
+          <p className="p-8 text-xl font-semibold">
+            Schedule a consultation and a Dev-Island representative will be in
+            contact!
+          </p>
+          <p className="p-8 text-xl font-semibold">
+            Review the services below to see what we offer.
+          </p>
         </div>
-        <h1 className="text-3xl m-4">Services:</h1>
-        <div className="m-4 border w-11/12">
-          <div className="m-6">
-            <h2>In-House</h2>
-            <ul className="list-disc">
+        <div className="m-6 flex flex-col lg:flex-row w-full max-w-[1220px]">
+          <div className="px-12 py-8 m-6 lg:w-1/2 rounded-xl shadow-2xl bg-seaside text-coolgray">
+            <h2 className="text-2xl p-4">In-House</h2>
+            <ul className="text-xl [&>*]:p-2">
               <li>
-                <h1>Web Dev</h1>
+                <h1>Website Consulting</h1>
               </li>
               <li>
                 <h2>React Apps</h2>
               </li>
             </ul>
           </div>
-          <div className="m-6">
-            <h2>Network Products</h2>
-            <ul className="list-disc">
+          <div className="px-12 py-8 m-6 lg:w-1/2 rounded-xl shadow-2xl bg-seaside text-coolgray">
+            <h2 className="text-2xl p-4">Network Products</h2>
+            <ul className="text-xl [&>*]:p-2">
               <li>
                 <h1>Product Imaging</h1>
               </li>

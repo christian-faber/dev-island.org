@@ -1,7 +1,7 @@
 export const Team = ({ setOpen, setCharacter, team }) => {
   return (
-    <div className="bg-seaside rounded-xl shadow-2xl m-2 lg:max-w-[1220px]">
-      <h2 className="flex justify-start text-3xl pl-12 text-coolgray py-6">
+    <div className="bg-seaside rounded-xl shadow-2xl lg:max-w-[1220px]">
+      <h2 className="flex justify-start text-3xl text-coolgray p-6">
         The Team
       </h2>
       <div className="flex flex-wrap justify-around m-2">

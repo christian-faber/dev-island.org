@@ -218,7 +218,7 @@ export const Faq = () => {
   return (
     <>
       <div className="bg-seaside">
-        <h1 className="py-4 text-3xl text-center text-coolgray font-bold border-b-2 drop-shadow-xl">
+        <h1 className="p-12 text-3xl text-center text-coolgray font-bold border-b-2 drop-shadow-xl">
           Frequently Asked Questions
         </h1>
       </div>

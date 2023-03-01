@@ -36,6 +36,21 @@ export const AboutModal = ({ setOpen, character }) => {
                     {character.name}
                   </h1>
                   <h2 className="font-semibold">{character?.position}</h2>
+                  <div className="border-seaside border-2 rounded-lg p-2 shadow-xl w-2/3">
+                    <div className="justify-between flex-row flex">
+                      <a href={character?.linkedin} className="text-2xl ">
+                        <FaLinkedin />
+                      </a>
+                      <a href={character?.github} className="text-2xl ">
+                        <FaGithub />
+                      </a>
+                      {character.otherlink !== "" && (
+                        <a href={character?.otherlink} className="text-2xl ">
+                          <CgWebsite />
+                        </a>
+                      )}
+                    </div>
+                  </div>
                 </div>
                 <img
                   src={character.image}
@@ -43,27 +58,10 @@ export const AboutModal = ({ setOpen, character }) => {
                   className="rounded-full object-cover border-og border-2 drop-shadow-xl h-5/6"
                 ></img>
               </div>
-              <div className="flex flex-col align-top px-4 h-1/2">
+              <div className="flex flex-col align-top px-4 h-2/3">
                 <h1 className="text-2xl m-4 font-semibold">Background</h1>
                 <div className="overflow-auto h-2/3">
                   <p className="text-xl">{character.background}</p>
-                </div>
-              </div>
-              <div className="flex flex-col justify-end items-end h-1/6 mx-[10%]">
-                <div className="border-seaside border-2 rounded-lg p-2 shadow-xl">
-                  <div className="space-x-4 flex-row flex">
-                    <a href={character?.linkedin} className="text-2xl ">
-                      <FaLinkedin />
-                    </a>
-                    <a href={character?.github} className="text-2xl ">
-                      <FaGithub />
-                    </a>
-                    {character.otherlink !== "" && (
-                      <a href={character?.otherlink} className="text-2xl ">
-                        <CgWebsite />
-                      </a>
-                    )}
-                  </div>
                 </div>
               </div>
             </div>
