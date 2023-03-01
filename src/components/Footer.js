@@ -7,6 +7,9 @@ export const Footer = () => {
       <h2 className="flex items-center align-middle">TM Dev-Island</h2>
       <ul className="hidden lg:flex items-center align-right justify-center [&>*]:p-5 [&>*]:text-black">
         <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline font-semibold text-lg">
+          <Link to="/">Home</Link>
+        </li>
+        <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline font-semibold text-lg">
           <Link to="/students">Students</Link>
         </li>
         <li className=" hover:text-slate-500 transform transition active:scale-125 active:underline font-semibold text-lg">
