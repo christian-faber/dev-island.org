@@ -1,4 +1,4 @@
-import { Cohort } from "../components/Cohort";
+// import { Cohort } from "../components/Cohort";
 import { useState } from "react";
 import { AboutModal } from "../components/modals/AboutModal";
 import { Link } from "react-router-dom";
@@ -19,118 +19,109 @@ export const Students = () => {
           className="flex align-center items-center justify-center
           bg-gradient-to-b w-full bg-seaside px-[5%] py-5 shadow-xl mb-4"
         >
-          <button className="border-2 rounded-xl p-4 shadow-xl m-2 bg-misty text-coolgray text-2xl hover:scale-125 transition transform">
+          <button className=" rounded-xl p-4 shadow-2xl m-2 bg-misty text-coolgray text-2xl hover:scale-125 transition transform">
             <Link to="/apply" className="">
               BECOME A STUDENT!
             </Link>
           </button>
         </div>
-        <div className="flex flex-col w-11/12 max-w-[1220px] justify-center">
-          <div className="my-4 bg-seaside border-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
-            <>
-              <div className="flex flex-row justify-between ">
-                <h1 className="text-5xl p-5 lg:pl-24 lg:py-12 lg:text-[64px] ">
-                  Overview
-                </h1>
-              </div>
-              <ul className=" [&>*]:p-4 [&>*]:text-xl mt-4">
-                <li className="font-semibold text-xl justify-center flex">
+        <div className="flex flex-col w-11/12 max-w-[1440px] justify-center ">
+          <div className="lg:flex lg:flex-row">
+            <div className="my-4 lg:m-4 bg-seaside rounded-xl lg:p-12 p-4 shadow-xl text-coolgray lg:w-1/2">
+              <>
+                <div className="flex flex-row justify-between">
+                  <h1 className="text-xl p-5 lg:py-8 text-[32px] lg:text-[48px] ">
+                    Overview
+                  </h1>
+                </div>
+                <h2 className="font-semibold text-xl justify-start flex p-4 lg:p-5">
                   Scholarships are available to those who will need tuition
                   assistance.
-                </li>
-                <li className="font-semibold text-xl justify-center flex">
+                </h2>
+                <h2 className="font-semibold text-xl justify-start flex p-4 lg:p-5">
                   Dev-Island's bootcamp is a 10-month program. Students attend
                   two classes per week and each class is three hours long.
-                </li>
-                <li className="font-semibold text-xl justify-center flex">
+                </h2>
+                <h2 className="font-semibold text-xl justify-start flex p-4 lg:p-5">
                   Students will be challenged by along the way, but the skills
                   are worth it!
-                </li>
-              </ul>
-            </>
-          </div>
-          <div className="my-4 bg-seaside border-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
-            <>
-              <div className="flex-row flex justify-between">
-                <h1 className="text-5xl p-5 lg:pl-24 lg:py-12 lg:text-[64px] ">
-                  Curriculum
-                </h1>
-              </div>
-              <div className="m-4">
-                <h2 className="font-semibold text-xl justify-center flex">
+                </h2>
+              </>
+            </div>
+            <div className="my-4 lg:m-4 bg-seaside rounded-xl lg:p-12 p-4 shadow-xl text-coolgray lg:w-1/2">
+              <>
+                <div className="flex-row flex justify-between">
+                  <h1 className="text-xl p-5 lg:py-8 text-[32px] lg:text-[48px] ">
+                    Curriculum
+                  </h1>
+                </div>
+                <h2 className="font-semibold text-xl justify-start flex p-4 lg:p-5">
                   Students use HTML, CSS, JavaScript, and React.js to build web
                   applications!
                 </h2>
-              </div>
-              <div className="m-4">
-                <h2 className="font-semibold text-xl justify-center flex">
+                <h2 className="font-semibold text-xl justify-start flex p-4 lg:p-5">
                   Students learn through multiple methods. Individual projects
                   test students' abilities. Code-along lessons show, in real
                   time, how new methods are applied. The capstone project puts
                   everything together!
                 </h2>
-              </div>
-              <div className="m-4">
-                <h2 className="font-semibold text-xl justify-center flex">
+                <h2 className="font-semibold text-xl justify-start flex p-4 lg:p-5">
                   Dev-Island also focuses on developing professional skills.
                   Students run through mock interviews and workshops on
                   improving resumes, networking, and job-searching push students
                   to take action in their careers!
                 </h2>
-              </div>
-            </>
+              </>
+            </div>
           </div>
-          <div className="my-4 bg-seaside border-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
-            <>
-              <div className="flex flex-row justify-between">
-                <h1 className="text-5xl p-5 lg:pl-24 lg:py-12 lg:text-[64px] ">
-                  Environment
-                </h1>
-              </div>
-              <div className="m-4">
-                <h2 className="font-semibold text-xl justify-center flex">
+          <div className="lg:flex lg:flex-row">
+            <div className="my-4 lg:m-4 bg-seaside rounded-xl lg:p-12 p-4 shadow-xl text-coolgray lg:w-1/2">
+              <>
+                <div className="flex flex-row justify-between">
+                  <h1 className="text-xl p-5 lg:py-8 text-[32px] lg:text-[48px] ">
+                    Environment
+                  </h1>
+                </div>
+                <h2 className="font-semibold text-xl justify-start p-4 lg:p-5 flex">
                   Dev-Island uses tools like Slack, GitHub, and Kumospace to
                   keep in touch and make remote connection possible!
                 </h2>
-              </div>
-              <div className="m-4">
-                <h2 className="font-semibold text-xl justify-center flex">
+                <h2 className="font-semibold text-xl justify-start p-4 lg:p-5 flex">
                   An environment of collaboration and accountability drives
                   student success. Students are encouraged to ask for help and
                   express challenges.
                 </h2>
-              </div>
-              <div className="m-4">
-                <h2 className="font-semibold text-xl justify-center flex">
-                  Students are connected with mentors to
+                <h2 className="font-semibold text-xl justify-start p-4 lg:p-5 flex">
+                  Students are connected with mentors to expand upon the
+                  bootcamp's lessons.
                 </h2>
-              </div>
-            </>
-          </div>
-          <div className="my-4 bg-seaside border-misty border-2 rounded-xl p-4 shadow-xl text-coolgray">
-            <>
-              <div className="flex flex-row justify-between">
-                <h1 className="text-5xl p-5 lg:pl-24 lg:py-12 lg:text-[64px] ">
-                  Student Stories
-                </h1>
-              </div>
-              <div className="mt-4">
-                {/* <Cohort
+              </>
+            </div>
+            <div className="my-4 lg:m-4 bg-seaside rounded-xl lg:p-12 p-4 shadow-xl text-coolgray lg:w-1/2">
+              <>
+                <div className="flex flex-row justify-between">
+                  <h1 className="text-xl p-5 lg:py-8 text-[32px] lg:text-[48px] ">
+                    Student Stories
+                  </h1>
+                </div>
+                <div className="mt-4 flex justify-center items-center">
+                  {/* <Cohort
                   students={personnel.students}
                   modalOpen={modalOpen}
                   setOpen={setOpen}
                   character={character}
                   setCharacter={setCharacter}
                 /> */}
-                <Alumni
-                  alumni={personnel.alumni}
-                  modalOpen={modalOpen}
-                  setOpen={setOpen}
-                  character={character}
-                  setCharacter={setCharacter}
-                />
-              </div>
-            </>
+                  <Alumni
+                    alumni={personnel.alumni}
+                    modalOpen={modalOpen}
+                    setOpen={setOpen}
+                    character={character}
+                    setCharacter={setCharacter}
+                  />
+                </div>
+              </>
+            </div>
           </div>
         </div>
       </div>

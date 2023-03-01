@@ -217,10 +217,12 @@ const FAQS = [
 export const Faq = () => {
   return (
     <>
-      <div className="flex flex-col justify-center align-middle items-center bg-misty">
+      <div className="bg-seaside">
         <h1 className="py-4 text-3xl text-center text-coolgray font-bold border-b-2 drop-shadow-xl">
           Frequently Asked Questions
         </h1>
+      </div>
+      <div className="flex flex-col justify-center align-middle items-center bg-coolgray">
         {FAQS.map((faq) => (
           <FAQComponent
             key={faq.number}

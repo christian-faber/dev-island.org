@@ -3,8 +3,8 @@ import { useState } from "react";
 export const FAQComponent = ({ question, answer }) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="p-2 m-4 w-3/4 rounded-3xl shadow-xl bg-coolgray">
-      <div className="border-2 border-seaside rounded-3xl p-5">
+    <div className="p-2 m-4 w-3/4 rounded-3xl shadow-xl bg-seaside">
+      <div className="border-2 border-coolgray rounded-3xl p-5 text-coolgray">
         {!isOpen && (
           <div
             onClick={() => setOpen(true)}

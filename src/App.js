@@ -17,7 +17,7 @@ function App() {
         <div className="z-20 sticky top-0">
           <Top />
         </div>
-        <div className="z-10 max-w-[1440px] ">
+        <div className="z-10  ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/donate" element={<Donate />} />

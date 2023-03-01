@@ -6,7 +6,7 @@ export const Alumni = ({
   alumni,
 }) => {
   return (
-    <div>
+    <div className="">
       {/* <h2 className="flex align-center items-center justify-center text-coolgray text-2xl font-semibold bg-gradient-to-b  w-full">
         Alumni
       </h2> */}
@@ -15,7 +15,7 @@ export const Alumni = ({
           <div
             key={alum.name}
             onClick={() => (setOpen(true), setCharacter(alum))}
-            className="flex flex-col items-center p-2 w-1/2 lg:w-1/4"
+            className="flex flex-col items-center p-2 lg:p-6 w-1/2 lg:w-1/2 lg:max-h-[400px] lg:max-w-[400px]"
           >
             <img
               src={`${alum.image}`}

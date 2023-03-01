@@ -15,38 +15,34 @@ export const GetInvolved = () => {
             the best ways to contribute and connect!
           </p>
           <a href="mailto:info@dev-island.org">
-            <button className="lg:justify-center text-white font-semibold m-4 p-4 bg-og rounded-xl shadow-lg hover:underline hover:scale-120 transform translate">
+            <button className="lg:justify-center text-white font-semibold m-4 p-4 bg-misty rounded-xl shadow-xl hover:underline hover:scale-120 transform translate">
               Reach out to info@dev-island.org
             </button>
           </a>
         </div>
         <div className="flex flex-col justify-center items-middle align-middle w-full">
-          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-misty">
-            <div className="border-og border m-2 p-4 rounded-xl">
-              <h2 className="text-2xl p-4 drop-shadow-lg text-coolgray">
-                Mentors
-              </h2>
-              <ul className="list-disc pl-4 [&>*]:py-2 text-coolgray">
+          <div className="m-4 p-4 shadow-xl bg-coolgray">
+            <div className=" border m-2 p-4 rounded-xl">
+              <h2 className="text-2xl p-4 drop-shadow-lg">Mentors</h2>
+              <ul className="list-disc pl-4 [&>*]:py-2">
                 <li>
-                  <p className="text-coolgray text-lg">
+                  <p className="text-lg">
                     Student and mentors connect online and in person
                   </p>
                 </li>
                 <li>
-                  <p className="text-coolgray text-lg">
+                  <p className=" text-lg">
                     Your expertise can empower students on their projects
                   </p>
                 </li>
                 <li>
-                  <p className="text-coolgray text-lg">
-                    Share stories (and memes)
-                  </p>
+                  <p className=" text-lg">Share stories (and memes)</p>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-coolgray">
-            <div className="border-og border m-2 p-4 rounded-xl">
+          <div className="m-4 p-4 shadow-xl bg-seaside">
+            <div className=" border m-2 p-4 rounded-xl">
               <h2 className="text-2xl p-4 drop-shadow-lg">
                 Community Organizations
               </h2>
@@ -57,7 +53,7 @@ export const GetInvolved = () => {
               <p className="mt-4 text-lg">How can Dev-Island help you?</p>
             </div>
           </div>
-          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-og">
+          <div className="m-4 p-4 shadow-xl bg-coolgray">
             <div className="border-seaside border m-2 p-4 rounded-xl">
               <h2 className="text-2xl p-4 drop-shadow-lg text-coolgray">
                 Online Community
@@ -80,8 +76,8 @@ export const GetInvolved = () => {
               </div>
             </div>
           </div>
-          <div className="m-4 p-4 border w-11/12 rounded-xl shadow-xl bg-seaside">
-            <div className="border-og border m-2 p-4 rounded-xl">
+          <div className="m-4 p-4 shadow-xl bg-seaside">
+            <div className=" border m-2 p-4 rounded-xl">
               <h2 className="text-2xl px-4 pt-4 drop-shadow-lg text-coolgray">
                 Donating
               </h2>
@@ -103,7 +99,7 @@ export const GetInvolved = () => {
                 <div className="lg:flex-row lg:flex">
                   <div className="rounded-full w-3/4 lg:w-1/4 object-cover border-4 border-coolgray">
                     <img
-                      className="rounded-full border-og border-4"
+                      className="rounded-full  border-4"
                       src="/assets/DevIslandSchool_40.jpg"
                       alt="happy student"
                     ></img>

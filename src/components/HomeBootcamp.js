@@ -35,14 +35,14 @@ export const HomeBootcamp = () => {
         <h2 className="text-xl pr-2">Next Cohort:</h2>
         <p className="text-3xl underline  font-bold">Spring 2023</p>
       </div>
-      <div className="flex p-5 justify-center space-x-10">
-        <Link to="/apply" className="w-1/4">
-          <button className="border bg-misty min-w-full rounded-xl p-5 shadow-2xl text-coolgray font-semibold">
+      <div className="flex p-5 justify-center space-x-[10%]">
+        <Link to="/apply" className="">
+          <button className="border min-w-[96px] max-w-[192px] bg-misty rounded-xl p-5 shadow-2xl text-coolgray font-semibold">
             Apply
           </button>
         </Link>
-        <Link to="/donate" className="w-1/4">
-          <button className="border bg-misty min-w-full rounded-xl p-5 text-coolgray shadow-2xl font-semibold">
+        <Link to="/donate" className="">
+          <button className="border min-w-[96px] max-w-[192px] bg-misty rounded-xl p-5 text-coolgray shadow-2xl font-semibold">
             Donate
           </button>
         </Link>
