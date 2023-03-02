@@ -35,13 +35,20 @@ export const Project = () => {
         </div>
         <div className="m-6 flex flex-col lg:flex-row w-full max-w-[1220px]">
           <div className="px-12 py-8 m-6 lg:w-1/2 rounded-xl shadow-2xl bg-seaside text-coolgray">
-            <h2 className="text-2xl p-4">In-House</h2>
+            <h2 className="text-2xl p-4">Services</h2>
             <ul className="text-xl [&>*]:p-2">
               <li>
                 <h1>Website Consulting</h1>
+                <p className="text-lg">
+                  Upgrade your web presence and connect with your partners!
+                </p>
               </li>
               <li>
                 <h2>React Apps</h2>
+                <p className="text-lg">
+                  Responsive web applications lead to excellent user experience
+                  on mobile or desktop!
+                </p>
               </li>
             </ul>
           </div>
