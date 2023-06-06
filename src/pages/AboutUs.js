@@ -3,9 +3,20 @@ import { Team } from "../components/Team";
 import { useState } from "react";
 import { AboutModal } from "../components/modals/AboutModal";
 import personnel from "../data/personnel.json";
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      page: 'about'
+  },
+  dataLayerName: 'PageDataLayer'
+}
 // import { IoCallOutline } from "react-icons/io5";
 // import { IoAtOutline } from "react-icons/io5";
 export const AboutUs = () => {
+  TagManager.dataLayer(tagManagerArgs)
   const [modalOpen, setOpen] = useState(false);
   const [character, setCharacter] = useState("");
 
