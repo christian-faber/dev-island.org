@@ -1,5 +1,16 @@
 import { FaMeetup, FaDiscord } from "react-icons/fa";
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      page: 'getinvolved'
+  },
+  dataLayerName: 'PageDataLayer'
+}
 export const GetInvolved = () => {
+  TagManager.dataLayer(tagManagerArgs)
   return (
     <div>
       <div className="flex align-middle flex-col justify-center items-center">

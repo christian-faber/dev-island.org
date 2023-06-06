@@ -1,4 +1,16 @@
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      page: 'donate'
+  },
+  dataLayerName: 'PageDataLayer'
+}
+
 export const Donate = () => {
+  TagManager.dataLayer(tagManagerArgs)
   return (
     <div>
       <div className="bg-purple-400 h-50 flex justify-center items-center align-center">

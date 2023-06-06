@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 export const FAQComponent = ({ question, answer }) => {
   // const [isOpen, setOpen] = useState(false);

@@ -1,6 +1,17 @@
 import { useState } from "react";
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      page: 'project'
+  },
+  dataLayerName: 'PageDataLayer'
+}
 
 export const Project = () => {
+  TagManager.dataLayer(tagManagerArgs)
   const [consult, setConsult] = useState(false);
   return (
     <div>

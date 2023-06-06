@@ -4,8 +4,19 @@ import { AboutModal } from "../components/modals/AboutModal";
 import { Link } from "react-router-dom";
 import { Alumni } from "../components/Alumni";
 import personnel from "../data/personnel.json";
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      page: 'students'
+  },
+  dataLayerName: 'PageDataLayer'
+}
 
 export const Students = () => {
+  TagManager.dataLayer(tagManagerArgs)
   const [modalOpen, setOpen] = useState(false);
   const [character, setCharacter] = useState("");
 

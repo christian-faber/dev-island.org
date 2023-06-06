@@ -1,4 +1,14 @@
 import { FAQComponent } from "./FAQComponent";
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      page: 'faq'
+  },
+  dataLayerName: 'PageDataLayer'
+}
 
 const FAQS = [
   {
@@ -215,6 +225,7 @@ const FAQS = [
 ];
 
 export const Faq = () => {
+  TagManager.dataLayer(tagManagerArgs)
   return (
     <>
       <div className="bg-seaside">
